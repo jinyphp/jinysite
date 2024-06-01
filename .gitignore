@@ -18,3 +18,10 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+
+composer.lock
+package-lock.json
+
+# Sqlite 데이터베이스
+/database/database.sqlite
