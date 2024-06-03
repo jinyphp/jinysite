@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\Route;
 
 use Illuminate\Support\Facades\Auth;
 
-use Jiny\WireTable\Http\Controllers\LiveController;
-class FamilyController extends LiveController
+use Jiny\WireTable\Http\Controllers\WireTablePopupForms;
+class FamilyController extends WireTablePopupForms
 {
     public function __construct()
     {
@@ -21,10 +21,10 @@ class FamilyController extends LiveController
         $this->actions['table'] = "hr_family";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr::user.worktime.layout";
+        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
-        $this->actions['view']['table'] = "jinyerp-hr::user.worktime.table";
+        // $this->actions['view']['table']";
 
         $this->actions['view']['list'] = "jinyerp-hr-employee::admin.family.list";
         $this->actions['view']['form'] = "jinyerp-hr-employee::admin.family.form";

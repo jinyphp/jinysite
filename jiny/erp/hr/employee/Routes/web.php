@@ -17,9 +17,9 @@ function cUserEmployee()
 // 인증 사용자 라우트
 //
 Route::middleware(['web', 'auth', 'verified'])->group(function () {
-    Route::prefix('/hr')->name('hr.')->group(function () {
-         ## 부양가족
-         Route::get('family', [
+    Route::prefix('/jiny/hr/employee')->name('hr.')->group(function () {
+        ## 부양가족
+        Route::get('family', [
             \Jiny\Erp\Hr\Employee\Http\Controllers\User\FamilyController::class,
             "index"
         ]);
@@ -47,6 +47,11 @@ Route::middleware(['web', 'auth', 'verified'])->group(function () {
 // HR Admin
 Route::middleware(['web','auth:sanctum', 'verified', 'admin', 'super'])->group(function () {
     Route::prefix('/admin/hr')->name('admin.hr.')->group(function () {
+
+        Route::get('/employee', [
+            \Jiny\Erp\Hr\mployee\Http\Controllers\Admin\EmployeeController::class,
+            "index"
+        ]);
 
         ## 사원-부양가족
         Route::get('family', [

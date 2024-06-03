@@ -10,8 +10,8 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Livewire;
 
-use Jiny\WireTable\Http\Controllers\LiveController;
-class BankController extends LiveController
+use Jiny\WireTable\Http\Controllers\WireTablePopupForms;
+class BankController extends WireTablePopupForms
 {
     public function __construct()
     {
@@ -22,10 +22,10 @@ class BankController extends LiveController
         $this->actions['table'] = "hr_bank";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr::user.worktime.layout";
+        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
-        $this->actions['view']['table'] = "jinyerp-hr::user.worktime.table";
+        // $this->actions['view']['table']";
 
         $this->actions['view']['title'] = "jinyerp-hr-employee::user.bank.title";
         //$this->actions['view']['filter'] = "jinyerp-hr-employee::user.bank.filter";

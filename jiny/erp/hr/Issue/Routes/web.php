@@ -1,12 +1,23 @@
 <?php
+use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 //HR
 Route::middleware(['web','auth', 'verified'])
 ->name('hr.')
-->prefix('/hr/admin')->group(function () {
+->prefix('/jiny/hr')->group(function () {
 
     # 질문답변
-    Route::resource('/faq', \Jiny\Hr\Http\Controllers\Admin\FaqController::class);
-    Route::resource('/qna', \Jiny\Hr\Http\Controllers\Admin\QnaController::class);
+    Route::get('/faq', [
+        \Jiny\Erp\Hr\Issue\Http\Controllers\AdminFaqController::class,
+        "index"
+    ]);
+
+    Route::get('/qna', [
+        \Jiny\Erp\Hr\Issue\Http\Controllers\AdminQnaController::class,
+        "index"
+    ]);
 
 });

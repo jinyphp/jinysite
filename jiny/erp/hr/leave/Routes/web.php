@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 // 인증 사용자 라우트
 //
 Route::middleware(['web', 'auth', 'verified'])->group(function () {
-    Route::prefix('/hr')->name('hr.')->group(function () {
+    Route::prefix('/jiny/hr')->name('hr.')->group(function () {
 
         ## 휴가
         Route::get('/vacation', [
