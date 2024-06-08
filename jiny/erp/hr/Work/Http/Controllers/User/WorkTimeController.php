@@ -22,7 +22,7 @@ class WorkTimeController extends WireTablePopupForms
         $this->actions['table'] = "hr_worktime";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
+        $this->actions['view']['layout'] = "jinyerp-hr-home::users.layout_table";
 
         // 테이블 레이아웃
         // $this->actions['view']['table']";
@@ -36,6 +36,11 @@ class WorkTimeController extends WireTablePopupForms
         */
 
         $this->actions['view']['form'] = "jinyerp-hr-work::user.worktime.form";
+
+        // 타이틀
+        $this->actions['title'] = "HR";
+        $this->actions['subtitle'] = "근무기록을 확인합니다.";
+        $this->actions['view']['title'] = "jinyerp-hr-work::user.worktime.title";
 
         // 데이터추가 폼을 비활성화 합니다.
         $this->createDisable();

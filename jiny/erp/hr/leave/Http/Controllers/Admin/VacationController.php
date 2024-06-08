@@ -29,6 +29,10 @@ class VacationController extends WireTablePopupForms
         $this->actions['view']['list'] = "jinyerp-hr-leave::admin.vacation.list";
         $this->actions['view']['form'] = "jinyerp-hr-leave::admin.vacation.form";
 
+        $this->actions['title'] = "휴가";
+        $this->actions['subtitle'] = "휴가 목록.";
+        $this->actions['view']['title'] = "jinyerp-hr-leave::admin.vacation.title";
+
 
     }
 

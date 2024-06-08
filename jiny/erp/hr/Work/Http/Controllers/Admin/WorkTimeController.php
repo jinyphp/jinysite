@@ -23,10 +23,14 @@ class WorkTimeController extends WireTablePopupForms
 
         // 테이블 레이아웃
         //$this->actions['view']['table'];
-
+        $this->actions['view']['filter'] = "jinyerp-hr-work::admin.worktime.filter";
         $this->actions['view']['list'] = "jinyerp-hr-work::admin.worktime.list";
         $this->actions['view']['form'] = "jinyerp-hr-work::admin.worktime.form";
 
+
+        $this->actions['title'] = "출퇴근 기록";
+        $this->actions['subtitle'] = "사원별 출퇴근 기간을 기록합니다.";
+        $this->actions['view']['title'] = "jinyerp-hr-work::admin.worktime.title";
 
     }
 

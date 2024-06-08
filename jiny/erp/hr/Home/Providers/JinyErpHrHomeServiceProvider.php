@@ -41,9 +41,7 @@ class JinyErpHrHomeServiceProvider extends ServiceProvider
 
             //Livewire::component('user-work-time', \Jiny\Hr\Http\Livewire\UserWorkTime::class);
 
-            // 근무상태
-            Livewire::component('ErpHr-work-status',
-                \Jiny\Erp\Hr\Http\Livewire\WorkStatus::class);
+
 
             Livewire::component('user-family', \Jiny\Hr\Http\Livewire\UserFamily::class);
             Livewire::component('user-family-form', \Jiny\Hr\Http\Livewire\UserFamilyForm::class);

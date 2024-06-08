@@ -26,11 +26,15 @@ class LicenseController extends WireTablePopupForms
 
         // 테이블 레이아웃
         // $this->actions['view']['table']";
-
+        $this->actions['view']['filter'] = "jinyerp-hr-employee::admin.license.filter";
         $this->actions['view']['list'] = "jinyerp-hr-employee::admin.license.list";
         $this->actions['view']['form'] = "jinyerp-hr-employee::admin.license.form";
 
         //$this->rules['nested']['table'] = "hr_employee";
+
+        $this->actions['title'] = "자격증";
+        $this->actions['subtitle'] = "사원별 보유 자격증을 관리합니다.";
+        $this->actions['view']['title'] = "jinyerp-hr-employee::admin.license.title";
 
 
     }

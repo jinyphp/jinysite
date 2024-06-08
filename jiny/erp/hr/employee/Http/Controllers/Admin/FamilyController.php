@@ -26,10 +26,15 @@ class FamilyController extends WireTablePopupForms
         // 테이블 레이아웃
         // $this->actions['view']['table']";
 
+        $this->actions['view']['filter'] = "jinyerp-hr-employee::admin.family.filter";
         $this->actions['view']['list'] = "jinyerp-hr-employee::admin.family.list";
         $this->actions['view']['form'] = "jinyerp-hr-employee::admin.family.form";
 
         $this->actions['nested']['table'] = "hr_employee";
+
+        $this->actions['title'] = "부양가족";
+        $this->actions['subtitle'] = "사원별 복지 및 공제를 위한 부양가족 정보를 관리합니다.";
+        $this->actions['view']['title'] = "jinyerp-hr-employee::admin.family.title";
 
 
     }

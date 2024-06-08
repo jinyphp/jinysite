@@ -24,14 +24,14 @@ class EmployeeController extends WireTablePopupForms
         // 테이블 레이아웃
         // $this->actions['view']['table']";
 
-        $this->actions['view']['list'] = "jinyerp-hr::admin.employee.list";
-        $this->actions['view']['form'] = "jinyerp-hr::admin.employee.form";
+        $this->actions['view']['filter'] = "jinyerp-hr-employee::admin.employee.filter";
+        $this->actions['view']['list'] = "jinyerp-hr-employee::admin.employee.list";
+        $this->actions['view']['form'] = "jinyerp-hr-employee::admin.employee.form";
 
 
-        // $this->actions['view']['title'] = "jinyerp-hr::admin.employee.title";
-        // $this->actions['view']['filter'] = "jinyerp-hr::admin.employee.filter";
-        //
-        //
+        $this->actions['title'] = "사원관리";
+        $this->actions['subtitle'] = "기업내 사원을 등록 관리합니다.";
+        $this->actions['view']['title'] = "jinyerp-hr-employee::admin.employee.title";
     }
 
 

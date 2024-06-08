@@ -26,10 +26,14 @@ class AdminQnaController extends WireTablePopupForms
         // 테이블 레이아웃
         // $this->actions['view']['table']";
 
-        $this->actions['view']['title'] = "jinyerp-hr-issue::admin.qna.title";
-        //$this->actions['view']['filter'] = "jinyerp-hr-issue::admin.qna.filter";
+
+        $this->actions['view']['filter'] = "jinyerp-hr-issue::admin.qna.filter";
         $this->actions['view']['list'] = "jinyerp-hr-issue::admin.qna.list";
         $this->actions['view']['form'] = "jinyerp-hr-issue::admin.qna.form";
+
+        $this->actions['title'] = "HR QNA";
+        $this->actions['subtitle'] = "사원별 HR 질문을 관리 합니다.";
+        $this->actions['view']['title'] = "jinyerp-hr-issue::admin.qna.title";
 
 
 

@@ -1,11 +1,16 @@
 <x-theme theme="admin.sidebar">
-    <x-theme-layout>
+    <div class="wrapper">
 
-        <h1>HR 인사관리</h1>
+        @includeIf("jinyerp-hr-home::layouts.sidebar")
 
-        <ul>
-            <li><a href="/hr/admin/worktype">근무형태</a></li>
-        </ul>
+        <div class="main">
+            <x-theme-header></x-theme-header>
+            <x-theme-main>
+                <h1>HR 인사관리</h1>
+
+                <ul>
+                    <li><a href="/hr/admin/worktype">근무형태</a></li>
+                </ul>
 
 
         <ul>
@@ -15,20 +20,65 @@
             <li>퇴근등록</li>
             <li>근무일지 작성</li>
             <li>근무일지 평가 및 회신</li>
-
         </ul>
 
         <div class="row">
+
+
             <div class="col-4">
-                <h2>직원현황</h2>
+                <x-card>
+                    <x-card-header>
+                        <h2>근무상태</h2>
+                        <span>근무일지</span>
+                    </x-card-header>
+                    <x-card-body>
+                        출근: 명 / 퇴근: 명
+                    </x-card-body>
+                </x-card>
+            </div>
 
-                {{table_count("hr_employee")}} 명
+            <div class="col-4">
+                <x-card>
+                    <x-card-header>
+                        <h2>휴가자</h2>
+                    </x-card-header>
+                    <x-card-body>
 
+                    </x-card-body>
+                </x-card>
+            </div>
+
+            <div class="col-4">
+                <x-card>
+                    <x-card-header>
+                        <h2>직원현황</h2>
+                    </x-card-header>
+                    <x-card-body>
+                        {{table_count("hr_employee")}} 명
+                    </x-card-body>
+                </x-card>
+            </div>
+
+
+
+            <div class="col-4">
+                <x-card>
+                    <x-card-header>
+                        <h2>부서</h2>
+                    </x-card-header>
+                    <x-card-body>
+
+                    </x-card-body>
+                </x-card>
             </div>
         </div>
 
+            </x-theme-main>
+            <x-theme-footer></x-theme-footer>
+        </div>
 
-
+    </div>
+</x-theme>
 
 
 {{--
@@ -182,7 +232,3 @@
             </x-col-8>
         </x-row> --}}
 
-
-
-    </x-theme-layout>
-</x-theme>

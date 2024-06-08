@@ -7,13 +7,14 @@
             <x-theme-header></x-theme-header>
             <x-theme-main>
                 {{-- Title --}}
+                <section class="p-2">
                 @if(isset($actions['view']['title']))
                     @includeIf($actions['view']['title'])
                 @else
-                <section class="p-2">
-
-                </section>
+                    @includeIf("jinyerp-hr-home::layouts.title")
                 @endif
+                </section>
+
 
                 {{-- CRUD 테이블 --}}
                 <section class="p-2">

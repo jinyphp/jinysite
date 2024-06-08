@@ -24,13 +24,15 @@ class BankController extends WireTablePopupForms
         // 테이블 레이아웃
         // $this->actions['view']['table']";
 
-        $this->actions['view']['title'] = "jinyerp-hr-employee::admin.bank.title";
-        //$this->actions['view']['filter'] = "jinyerp-hr-employee::admin.bank.filter";
+
+        $this->actions['view']['filter'] = "jinyerp-hr-employee::admin.bank.filter";
         $this->actions['view']['list'] = "jinyerp-hr-employee::admin.bank.list";
         $this->actions['view']['form'] = "jinyerp-hr-employee::admin.bank.form";
 
 
-
+        $this->actions['title'] = "직원별 급여계좌";
+        $this->actions['subtitle'] = "급여를 지급하기 위한 계좌들을 관리합니다.";
+        $this->actions['view']['title'] = "jinyerp-hr-employee::admin.bank.title";
     }
 
 

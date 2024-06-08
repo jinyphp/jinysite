@@ -49,7 +49,7 @@ Route::middleware(['web','auth:sanctum', 'verified', 'admin', 'super'])->group(f
     Route::prefix('/admin/hr')->name('admin.hr.')->group(function () {
 
         Route::get('/employee', [
-            \Jiny\Erp\Hr\mployee\Http\Controllers\Admin\EmployeeController::class,
+            \Jiny\Erp\Hr\Employee\Http\Controllers\Admin\EmployeeController::class,
             "index"
         ]);
 

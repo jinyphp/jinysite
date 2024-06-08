@@ -30,7 +30,13 @@ class JinyErpHrWorkServiceProvider extends ServiceProvider
 
         /* 라이브와이어 컴포넌트 등록 */
         $this->app->afterResolving(BladeCompiler::class, function () {
+            // 출퇴근 기록
+            Livewire::component('ErpHr-GoToWork',
+                \Jiny\Erp\Hr\Work\Http\Livewire\GoToWork::class);
 
+            // 출퇴근 기록
+            Livewire::component('ErpHr-WorkStatus',
+                \Jiny\Erp\Hr\Work\Http\Livewire\WorkStatus::class);
         });
     }
 }

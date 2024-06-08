@@ -27,14 +27,17 @@ class WorkTypeController extends WireTablePopupForms
         // 테이블 레이아웃
         //$this->actions['view']['table'];
 
-        $this->actions['view']['title'] = "jinyerp-hr-work::admin.worktype.title";
-
+        $this->actions['view']['filter'] = "jinyerp-hr-work::admin.worktime.filter";
         $this->actions['view']['list'] = "jinyerp-hr-work::admin.worktype.list";
         $this->actions['view']['form'] = "jinyerp-hr-work::admin.worktype.form";
 
-        $this->actions['validate'] = [
-            'title' => "required"
-        ];
+        // $this->actions['validate'] = [
+        //     'title' => "required"
+        // ];
+
+        $this->actions['title'] = "근무유형";
+        $this->actions['subtitle'] = "기업에서 다양한 유형의 근무방식을 설정하고 관리할 수 있습니다.";
+        $this->actions['view']['title'] = "jinyerp-hr-work::admin.worktime.title";
 
 
 

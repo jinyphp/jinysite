@@ -25,10 +25,14 @@ class CredentialsController extends WireTablePopupForms
         // 테이블 레이아웃
         //$this->actions['view']['table'];
 
-        $this->actions['view']['title'] = "jinyerp-hr-credentials::credentials.title";
-        //$this->actions['view']['filter'] = "jinyerp-hr-credentials::user.bank.filter";
-        $this->actions['view']['list'] = "jinyerp-hr-credentials::credentials.list";
-        $this->actions['view']['form'] = "jinyerp-hr-credentials::credentials.form";
+
+        $this->actions['view']['filter'] = "jinyerp-hr-credentials::admin.credential.filter";
+        $this->actions['view']['list'] = "jinyerp-hr-credentials::admin.credentials.list";
+        $this->actions['view']['form'] = "jinyerp-hr-credentials::admin.credentials.form";
+
+        $this->actions['title'] = "발급신청";
+        $this->actions['subtitle'] = "각종 증명서 발급을 관리합니다.";
+        $this->actions['view']['title'] = "jinyerp-hr-credentials::admin.credentials.title";
 
     }
 
