@@ -22,7 +22,7 @@ class WorkAssignController extends WireTablePopupForms
         $this->actions['table'] = "hr_work_assign";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
+        //$this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
         //$this->actions['view']['table'];
@@ -37,7 +37,10 @@ class WorkAssignController extends WireTablePopupForms
 
         $this->actions['title'] = "사원별 지정 근무 유형";
         $this->actions['subtitle'] = "사원별로 기존적으로 근무하는 유형을 지정합니다.";
-        $this->actions['view']['title'] = "jinyerp-hr-work::admin.work_assign.title";
+        //$this->actions['view']['title'] = "jinyerp-hr-work::admin.work_assign.title";
+
+        // 테마를 적용합니다.
+        $this->setTheme("jinyerp/hr-admin");
 
     }
 

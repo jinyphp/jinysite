@@ -20,7 +20,7 @@ class RequestLeaveController extends WireTablePopupForms
         $this->actions['table'] = "hr_request_leave";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
+        //$this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
         // $this->actions['view']['table']";
@@ -30,6 +30,9 @@ class RequestLeaveController extends WireTablePopupForms
 
         $this->actions['title'] = "휴가 신청목록";
         $this->actions['subtitle'] = "사원별 신청한 휴가목록을 확인합니다.";
+
+        // 테마를 적용합니다.
+        $this->setTheme("jinyerp/hr-admin");
 
     }
 

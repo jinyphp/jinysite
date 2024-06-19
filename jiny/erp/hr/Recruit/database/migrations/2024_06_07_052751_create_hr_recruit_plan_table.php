@@ -23,6 +23,9 @@ return new class extends Migration
             // 작성자
             $table->string('email')->nullable();
 
+            // 채용형태
+            $table->string('type')->nullable();
+
             // 채용부서
             $table->string('division')->nullable();
 

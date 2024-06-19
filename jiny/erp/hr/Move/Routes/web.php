@@ -12,6 +12,23 @@ Route::middleware(['web', 'auth', 'verified'])->group(function () {
     });
 });
 
+
+// HR 업무페이지
+Route::middleware(['web', 'auth', 'verified'])->group(function () {
+    Route::prefix("/hr/admin")->name('hr.admin')->group(function () {
+
+        ## 부서
+        Route::get('/division',[
+            \Jiny\Erp\Hr\Move\Http\Controllers\Admin\DivisionController::class,
+            "index"
+        ]);
+
+
+    });
+});
+
+
+
 // HR Admin
 Route::middleware(['web','auth:sanctum', 'verified', 'admin', 'super'])->group(function () {
     Route::prefix('/admin/hr')->name('admin.hr.')->group(function () {
@@ -29,11 +46,7 @@ Route::middleware(['web','auth:sanctum', 'verified', 'admin', 'super'])->group(f
             "index"
         ]);
 
-        ## 부서
-        Route::get('/division',[
-            \Jiny\Erp\Hr\Move\Http\Controllers\Admin\DivisionController::class,
-            "index"
-        ]);
+
 
         ## 인사발령 (Personnel Appointment)
         ## 부서발령

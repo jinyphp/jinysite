@@ -15,20 +15,21 @@
                 <td width='50'>
                     {{$item->id}}
                 </td>
-                <td width='100'>{{$item->employee_id}}</td>
-                <td width='100'>{{$item->name}}</td>
+                <td width='100'>
+                    {{$item->employee_id}}
+                </td>
+                <td width='100'>
+                    {{$item->name}}
+                </td>
                 <td>
                     <x-click wire:click="edit({{$item->id}})">
                         {{$item->account}}
                     </x-click>
-
                 </td>
 
-                <td width='200'>{{$item->created_at}}</td>
-
-
-
-
+                <td width='200'>
+                    {{$item->created_at}}
+                </td>
 
             </x-wire-tbody-item>
             @endforeach

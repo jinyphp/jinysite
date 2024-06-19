@@ -20,7 +20,7 @@ class RecruitPlan extends WireTablePopupForms
         $this->actions['table'] = "hr_recruit_plan";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
+        //$this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
         //$this->actions['view']['table'];
@@ -31,6 +31,9 @@ class RecruitPlan extends WireTablePopupForms
 
         $this->actions['title'] = "채용요청";
         $this->actions['subtitle'] = "부서별 필요한 사원 채용을 요청합니다.";
+
+        // 테마를 적용합니다.
+        $this->setTheme("jinyerp/hr-admin");
 
     }
 

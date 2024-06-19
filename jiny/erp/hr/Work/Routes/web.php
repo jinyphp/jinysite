@@ -33,7 +33,7 @@ Route::middleware(['web', 'auth', 'verified'])->group(function () {
 
 // HR Admin
 Route::middleware(['web','auth:sanctum', 'verified', 'admin', 'super'])->group(function () {
-    Route::prefix('/admin/hr')->name('admin.hr.')->group(function () {
+    Route::prefix('/hr/admin')->name('admin.hr.')->group(function () {
 
         // 근무 유형 정의
         Route::get('work/type', [

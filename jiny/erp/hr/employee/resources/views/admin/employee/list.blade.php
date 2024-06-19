@@ -3,12 +3,11 @@
         {{-- 테이블 제목 --}}
         <x-wire-thead>
             <th width='50'>Id</th>
-            <th width='100'>User</th>
+            <th width='200'>회원정보</th>
             <th>사원명</th>
-            <th>이메일</th>
             <th>연락처</th>
-            <th width='100'>직급</th>
-            <th width='100'>부서</th>
+            <th width='150'>부서/직급</th>
+            <th width='150'>상태</th>
             <th width='200'>등록일자</th>
         </x-wire-thead>
         <tbody>
@@ -19,33 +18,39 @@
                     <td width='50'>
                         {{$item->id}}
                     </td>
-                    <td width='100'>
-                        {!! xCellString($item->user) !!}
+                    <td width='200'>
+                        <div>{!! xCellString($item->user) !!}</div>
+                        <div>
+                            <x-click wire:click="edit({{$item->id}})">
+                                {{$item->email}}
+                            </x-click>
+                        </div>
                     </td>
                     <td>
                         {!! xCellAvatar($item, 'image1') !!}
-                        {{$item->name}}
-
-                    </td>
-                    <td>
                         <x-click wire:click="edit({{$item->id}})">
-                            {{$item->email}}
+                            {{$item->name}}
                         </x-click>
                     </td>
+
                     <td>{{$item->phone}}</td>
-                    <td width='100'>
+                    <td width='150'>
+                        <a href="javascript: void(0);" wire:click="call('division','{{$item->division}}')">
+                            {{$item->division}}
+                        </a>
+
                         @if($item->position)
                             {{$item->position}}
                         @else
-                        <a href="/admin/hr/onboarding">Onboarding</a>
-
+                        <a href="/hr/admin/onboarding">Onboarding</a>
                         @endif
                     </td>
-                    <td width='100'>
-                        <a href="javascript: void(0);" wire:click="call('division','{{$item->division}}')">
-                        {{$item->division}}
+                    <td width='150'>
+                        <a href="/hr/admin/employee/status">
+                            {{$item->status}}
                         </a>
                     </td>
+
                     <td width='200'>{{$item->created_at}}</td>
 
                 </x-wire-tbody-item>

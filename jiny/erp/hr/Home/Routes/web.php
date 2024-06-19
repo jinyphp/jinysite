@@ -4,31 +4,48 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
-$prefix_hr_user = "/hr/user";
-$prefix_hr_admin = "/admin/hr";
-
-// HR 사용자
-Route::middleware(['web', 'auth', 'verified'])->group(function () {
-    Route::prefix("/hr/user")->name('hr.user')->group(function () {
-        Route::get('/', [
-            \Jiny\Erp\Hr\Home\Http\Controllers\User\HrHomeUserDashboard::class,
-            "index"
-        ]);
-
-
+## 소개 페이지
+Route::middleware(['web'])
+->name('hr')
+->prefix("/hr")->group(function () {
+    Route::get('/', function(){
+        return view("jinyerp-hr-home::home.index");
     });
 });
 
 
-// HR 관리자
-Route::middleware(['web','auth:sanctum', 'verified', 'admin', 'super'])->group(function () {
-    Route::prefix("/admin/hr")->name('admin.hr.')->group(function () {
+$prefix_hr_user = "/hr/user";
 
-        // Admin 데쉬보드
-        Route::get('/', [
-            \Jiny\Erp\Hr\Home\Http\Controllers\Admin\DashboardController::class,
-            "index"
-        ]);
+// HR 사원 마이페이지
+Route::middleware(['web', 'auth', 'verified'])
+->name("hr.user")
+->prefix($prefix_hr_user)->group(function () {
+    Route::get('/', [
+        \Jiny\Erp\Hr\Home\Http\Controllers\User\HrHomeUserDashboard::class,
+        "index"
+    ]);
+});
 
-    });
+
+$prefix_hr_admin = "/hr/admin";
+// HR 관리직원
+Route::middleware(['web', 'auth', 'verified'])
+->name("hr.admin")
+->prefix($prefix_hr_admin)->group(function () {
+    Route::get('/', [
+        \Jiny\Erp\Hr\Home\Http\Controllers\Admin\HrAdminDashboard::class,
+        "index"
+    ]);
+
+    ## 사업장
+    Route::get('/business', [
+        \Jiny\Erp\Base\Http\Controllers\Admin\BusinessController::class,
+        "index"
+    ]);
+
+    // 내회사 자세히 보기
+    Route::get('/business/detail/{id?}', [
+        \Jiny\Erp\Hr\Home\Http\Controllers\Admin\MyBusinessDetail::class,
+        "index"
+    ]);
 });

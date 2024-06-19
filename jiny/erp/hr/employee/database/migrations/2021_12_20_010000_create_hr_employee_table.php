@@ -17,23 +17,30 @@ class CreateHrEmployeeTable extends Migration
             $table->id();
             $table->timestamps();
 
-            $table->string('user')->nullable();
-            // user 테이블과의 관계
-            $table->unsignedBigInteger('_id')->default(0);
-
+            ## 회원정보
             $table->string('enable')->default(1);
-            $table->string('name')->nullable();
-
-            $table->string('country')->nullable();
-
             $table->string('email')->nullable();
-            $table->string('phone')->nullable();
+            $table->string('user')->nullable();
+            $table->unsignedBigInteger('_id')->default(0); // user 테이블과의 관계
 
-            // 직급
+            ## 사원정보
+            $table->string('name')->nullable();
+            $table->string('recovery_email')->nullable(); // 복구 개인메일
+
+            ## 소속
+            $table->string('business')->nullable(); // 회사
+            $table->string('country')->nullable(); // 지역
+
+            ## 연락처
+            $table->string('phone')->nullable();
+            $table->string('address')->nullable();
+
+            ## 급여
+            $table->string('bank')->nullable();
+
+            ## 부서, 직급
             $table->string('division')->nullable();
             $table->unsignedBigInteger('division_id')->default(0);
-
-            // 직급
             $table->string('position')->nullable();
             $table->unsignedBigInteger('position_id')->default(0);
 
@@ -53,15 +60,10 @@ class CreateHrEmployeeTable extends Migration
             ## 퇴사일자(retiree date)
             $table->string('retiree')->nullable();
 
-            ## 주소
-            $table->string('address')->nullable();
-
 
             ## 급여설정
             ## 근무형태 (정규직,계약직,임시직,일용직)
             $table->string('work_type')->nullable();
-
-
 
 
             ## 국민연금(National Pension) , 계산안함 check

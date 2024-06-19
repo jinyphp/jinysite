@@ -22,7 +22,7 @@ class LicenseController extends WireTablePopupForms
         $this->actions['table'] = "hr_license";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
+        //$this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
         // $this->actions['view']['table']";
@@ -34,7 +34,10 @@ class LicenseController extends WireTablePopupForms
 
         $this->actions['title'] = "자격증";
         $this->actions['subtitle'] = "사원별 보유 자격증을 관리합니다.";
-        $this->actions['view']['title'] = "jinyerp-hr-employee::admin.license.title";
+        //$this->actions['view']['title'] = "jinyerp-hr-employee::admin.license.title";
+
+        // 테마를 적용합니다.
+        $this->setTheme("jinyerp/hr-admin");
 
 
     }

@@ -13,65 +13,7 @@
                 </ul>
 
 
-        <ul>
-            <li>재택신청</li>
-            <li>출근/재택비율</li>
-            <li>출근등록</li>
-            <li>퇴근등록</li>
-            <li>근무일지 작성</li>
-            <li>근무일지 평가 및 회신</li>
-        </ul>
 
-        <div class="row">
-
-
-            <div class="col-4">
-                <x-card>
-                    <x-card-header>
-                        <h2>근무상태</h2>
-                        <span>근무일지</span>
-                    </x-card-header>
-                    <x-card-body>
-                        출근: 명 / 퇴근: 명
-                    </x-card-body>
-                </x-card>
-            </div>
-
-            <div class="col-4">
-                <x-card>
-                    <x-card-header>
-                        <h2>휴가자</h2>
-                    </x-card-header>
-                    <x-card-body>
-
-                    </x-card-body>
-                </x-card>
-            </div>
-
-            <div class="col-4">
-                <x-card>
-                    <x-card-header>
-                        <h2>직원현황</h2>
-                    </x-card-header>
-                    <x-card-body>
-                        {{table_count("hr_employee")}} 명
-                    </x-card-body>
-                </x-card>
-            </div>
-
-
-
-            <div class="col-4">
-                <x-card>
-                    <x-card-header>
-                        <h2>부서</h2>
-                    </x-card-header>
-                    <x-card-body>
-
-                    </x-card-body>
-                </x-card>
-            </div>
-        </div>
 
             </x-theme-main>
             <x-theme-footer></x-theme-footer>

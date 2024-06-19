@@ -20,7 +20,7 @@ class PayrollWage extends WireTablePopupForms
         $this->actions['table'] = "hr_payroll_wage";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
+        //$this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
         //$this->actions['view']['table'];
@@ -31,6 +31,9 @@ class PayrollWage extends WireTablePopupForms
 
         $this->actions['title'] = "최저시급";
         $this->actions['subtitle'] = "급여계산의 기준이 되는 최저시급을 관리합니다.";
+
+        // 테마를 적용합니다.
+        $this->setTheme("jinyerp/hr-admin");
 
     }
 

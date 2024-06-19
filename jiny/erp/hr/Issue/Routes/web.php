@@ -16,7 +16,7 @@ Route::middleware(['web','auth', 'verified'])
 
 // HR Admin
 Route::middleware(['web','auth:sanctum', 'verified', 'admin', 'super'])->group(function () {
-    Route::prefix('/admin/hr')->name('admin.hr.')->group(function () {
+    Route::prefix('/hr/admin')->name('admin.hr.')->group(function () {
 
         # 질문답변
         Route::get('/faq', [

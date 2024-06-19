@@ -25,3 +25,5 @@ package-lock.json
 
 # Sqlite 데이터베이스
 /database/database.sqlite
+
+/jiny

@@ -19,7 +19,7 @@ class AdminFaqController extends WireTablePopupForms
         $this->actions['table'] = "hr_faq"; // 테이블 정보
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
+        //$this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
         // $this->actions['view']['table']";
@@ -30,7 +30,10 @@ class AdminFaqController extends WireTablePopupForms
 
         $this->actions['title'] = "HR FAQ";
         $this->actions['subtitle'] = "우리회사 HR과 관련된 잦은 질문들을 관리합니다.";
-        $this->actions['view']['title'] = "jinyerp-hr-issue::admin.faq.title";
+        // $this->actions['view']['title'] = "jinyerp-hr-issue::admin.faq.title";
+
+        // 테마를 적용합니다.
+        $this->setTheme("jinyerp/hr-admin");
 
 
 

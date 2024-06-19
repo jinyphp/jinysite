@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27d96ec21ef76a7c325e34b105453bbe",
+    "content-hash": "f724b677b14e19f00c0f8c05d71f48fd",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1269,20 +1269,23 @@
         },
         {
             "name": "jiny/admin",
-            "version": "0.3",
+            "version": "0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jinyphp/admin.git",
-                "reference": "db8b3e0725bb41b907a2b57787abb799bcedfa2a"
+                "reference": "c98d5e937798271358007e2398c137505c281198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/admin/zipball/db8b3e0725bb41b907a2b57787abb799bcedfa2a",
-                "reference": "db8b3e0725bb41b907a2b57787abb799bcedfa2a",
+                "url": "https://api.github.com/repos/jinyphp/admin/zipball/c98d5e937798271358007e2398c137505c281198",
+                "reference": "c98d5e937798271358007e2398c137505c281198",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "jiny/config": "^0.4.0",
+                "jiny/permit": "^0.3.0",
+                "jiny/wire-table": "^0.7.0",
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
@@ -1321,26 +1324,30 @@
             ],
             "support": {
                 "issues": "https://github.com/jinyphp/admin/issues",
-                "source": "https://github.com/jinyphp/admin/tree/0.3"
+                "source": "https://github.com/jinyphp/admin/tree/0.4"
             },
-            "time": "2024-04-12T10:01:05+00:00"
+            "time": "2024-06-19T07:30:00+00:00"
         },
         {
             "name": "jiny/auth",
-            "version": "0.5",
+            "version": "0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jinyphp/auth.git",
-                "reference": "bbc1ad4d6f03f82cb3634311665d1a85f9f5eb46"
+                "reference": "032f6dff06ba0abd849b664e948f08f76e8eb295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/auth/zipball/bbc1ad4d6f03f82cb3634311665d1a85f9f5eb46",
-                "reference": "bbc1ad4d6f03f82cb3634311665d1a85f9f5eb46",
+                "url": "https://api.github.com/repos/jinyphp/auth/zipball/032f6dff06ba0abd849b664e948f08f76e8eb295",
+                "reference": "032f6dff06ba0abd849b664e948f08f76e8eb295",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "jiny/auth-profile": "^0.5",
+                "jiny/auth-social": "^0.4",
+                "jiny/auth-users": "^0.4",
+                "jiny/fortify": "^0.0.2",
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
@@ -1379,9 +1386,185 @@
             ],
             "support": {
                 "issues": "https://github.com/jinyphp/auth/issues",
-                "source": "https://github.com/jinyphp/auth/tree/0.5"
+                "source": "https://github.com/jinyphp/auth/tree/0.7"
             },
-            "time": "2024-05-27T07:47:42+00:00"
+            "time": "2024-06-19T08:22:14+00:00"
+        },
+        {
+            "name": "jiny/auth-profile",
+            "version": "0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/auth-profile.git",
+                "reference": "26787e851fef0d11be661b08054f7b016908fd3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/auth-profile/zipball/26787e851fef0d11be661b08054f7b016908fd3e",
+                "reference": "26787e851fef0d11be661b08054f7b016908fd3e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Profile\\JinyProfileServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Profile\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com",
+                    "homepage": "http://www.jinyphp.com"
+                }
+            ],
+            "description": "profile for JinyPHP",
+            "homepage": "http://www.jinyphp.com",
+            "keywords": [
+                "framwork",
+                "jinyphp",
+                "profile"
+            ],
+            "support": {
+                "issues": "https://github.com/jinyphp/auth-profile/issues",
+                "source": "https://github.com/jinyphp/auth-profile/tree/0.5"
+            },
+            "time": "2024-06-19T08:11:48+00:00"
+        },
+        {
+            "name": "jiny/auth-social",
+            "version": "0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/auth-social.git",
+                "reference": "d464170121f2b199e00f457e63f2f294c33fb70f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/auth-social/zipball/d464170121f2b199e00f457e63f2f294c33fb70f",
+                "reference": "d464170121f2b199e00f457e63f2f294c33fb70f",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/socialite": "^5.5",
+                "php": "^8.2",
+                "socialiteproviders/kakao": "^4.2",
+                "socialiteproviders/naver": "^4.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Social\\JinySocialServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Social\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com",
+                    "homepage": "http://www.jinyphp.com"
+                }
+            ],
+            "description": "social auth for JinyPHP",
+            "homepage": "http://www.jinyphp.com",
+            "keywords": [
+                "auth",
+                "framwork",
+                "jinyphp",
+                "laravel",
+                "social"
+            ],
+            "support": {
+                "issues": "https://github.com/jinyphp/auth-social/issues",
+                "source": "https://github.com/jinyphp/auth-social/tree/0.4"
+            },
+            "time": "2024-06-19T08:18:14+00:00"
+        },
+        {
+            "name": "jiny/auth-users",
+            "version": "0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/auth-users.git",
+                "reference": "968195446bbeb72911006f4c77e4846b522fe96a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/auth-users/zipball/968195446bbeb72911006f4c77e4846b522fe96a",
+                "reference": "968195446bbeb72911006f4c77e4846b522fe96a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Users\\JinyUserServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Users\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com",
+                    "homepage": "http://www.jinyphp.com"
+                }
+            ],
+            "description": "users for JinyPHP",
+            "homepage": "http://www.jinyphp.com",
+            "keywords": [
+                "Users",
+                "framwork",
+                "jinyphp"
+            ],
+            "support": {
+                "issues": "https://github.com/jinyphp/auth-users/issues",
+                "source": "https://github.com/jinyphp/auth-users/tree/0.4"
+            },
+            "time": "2024-06-19T08:05:12+00:00"
         },
         {
             "name": "jiny/config",
@@ -1565,6 +1748,63 @@
             "time": "2024-04-06T17:53:49+00:00"
         },
         {
+            "name": "jiny/frontmatter",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/frontmatter.git",
+                "reference": "2dfbe8f321871c6067efaa796353aacb8d1531a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/frontmatter/zipball/2dfbe8f321871c6067efaa796353aacb8d1531a9",
+                "reference": "2dfbe8f321871c6067efaa796353aacb8d1531a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\FrontMatter\\JinyFrontMatterServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\FrontMatter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com",
+                    "homepage": "http://www.jinyphp.com"
+                }
+            ],
+            "description": "frontMatter for JinyPHP",
+            "homepage": "http://www.jinyphp.com",
+            "keywords": [
+                "framwork",
+                "jinyphp",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/jinyphp/frontmatter/issues",
+                "source": "https://github.com/jinyphp/frontmatter/tree/0.1.3"
+            },
+            "time": "2024-05-13T09:50:03+00:00"
+        },
+        {
             "name": "jiny/html",
             "version": "0.3",
             "source": {
@@ -1673,20 +1913,23 @@
         },
         {
             "name": "jiny/laravel",
-            "version": "0.0.2",
+            "version": "0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jinyphp/laravel.git",
-                "reference": "1b0332111a3eec550083fca3f275517adf3a4968"
+                "reference": "0014fd26df150870c0f764f61b1ff3571c2b1a4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/laravel/zipball/1b0332111a3eec550083fca3f275517adf3a4968",
-                "reference": "1b0332111a3eec550083fca3f275517adf3a4968",
+                "url": "https://api.github.com/repos/jinyphp/laravel/zipball/0014fd26df150870c0f764f61b1ff3571c2b1a4d",
+                "reference": "0014fd26df150870c0f764f61b1ff3571c2b1a4d",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "jiny/locale": "^0.3.2",
+                "jiny/manual": "^0.0.2",
+                "jiny/modules": "^0.3.2",
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
@@ -1723,9 +1966,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jinyphp/laravel/issues",
-                "source": "https://github.com/jinyphp/laravel/tree/0.0.2"
+                "source": "https://github.com/jinyphp/laravel/tree/0.1"
             },
-            "time": "2024-05-01T05:53:01+00:00"
+            "time": "2024-06-19T07:25:17+00:00"
         },
         {
             "name": "jiny/locale",
@@ -1840,16 +2083,16 @@
         },
         {
             "name": "jiny/markdown",
-            "version": "0.1.1",
+            "version": "0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jinyphp/markdown.git",
-                "reference": "5ccc36c9bf67f671e274ea7b78300c2b9e920db9"
+                "reference": "a6d3a8a25cdffdebcb20568a28e7e346902596eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/markdown/zipball/5ccc36c9bf67f671e274ea7b78300c2b9e920db9",
-                "reference": "5ccc36c9bf67f671e274ea7b78300c2b9e920db9",
+                "url": "https://api.github.com/repos/jinyphp/markdown/zipball/a6d3a8a25cdffdebcb20568a28e7e346902596eb",
+                "reference": "a6d3a8a25cdffdebcb20568a28e7e346902596eb",
                 "shasum": ""
             },
             "require": {
@@ -1885,26 +2128,26 @@
             "description": "Markdown for jinyPHP",
             "support": {
                 "issues": "https://github.com/jinyphp/markdown/issues",
-                "source": "https://github.com/jinyphp/markdown/tree/0.1.1"
+                "source": "https://github.com/jinyphp/markdown/tree/0.2"
             },
-            "time": "2024-05-21T17:55:55+00:00"
+            "time": "2024-06-19T06:54:50+00:00"
         },
         {
             "name": "jiny/menu",
-            "version": "0.3.0",
+            "version": "0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jinyphp/menu.git",
-                "reference": "c44c466bf74c83d7073c03b3b393fbaa4792290d"
+                "reference": "8dd6087dab1bf504b3a4c6c736dab8b2db32c600"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/menu/zipball/c44c466bf74c83d7073c03b3b393fbaa4792290d",
-                "reference": "c44c466bf74c83d7073c03b3b393fbaa4792290d",
+                "url": "https://api.github.com/repos/jinyphp/menu/zipball/8dd6087dab1bf504b3a4c6c736dab8b2db32c600",
+                "reference": "8dd6087dab1bf504b3a4c6c736dab8b2db32c600",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
@@ -1942,9 +2185,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jinyphp/menu/issues",
-                "source": "https://github.com/jinyphp/menu/tree/0.3.0"
+                "source": "https://github.com/jinyphp/menu/tree/0.5"
             },
-            "time": "2024-06-01T05:55:09+00:00"
+            "time": "2024-06-19T06:55:51+00:00"
         },
         {
             "name": "jiny/modules",
@@ -2119,27 +2362,31 @@
             "time": "2024-05-05T11:36:17+00:00"
         },
         {
-            "name": "jiny/profile",
-            "version": "0.4",
+            "name": "jiny/shop",
+            "version": "0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jinyphp/profile.git",
-                "reference": "aa5ff18ae5401b43fb958906aab0fe3b2793546b"
+                "url": "https://github.com/jinyphp/shop.git",
+                "reference": "bbd41a2cd5567018e11aca20f723a1f4f0385076"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/profile/zipball/aa5ff18ae5401b43fb958906aab0fe3b2793546b",
-                "reference": "aa5ff18ae5401b43fb958906aab0fe3b2793546b",
+                "url": "https://api.github.com/repos/jinyphp/shop/zipball/bbd41a2cd5567018e11aca20f723a1f4f0385076",
+                "reference": "bbd41a2cd5567018e11aca20f723a1f4f0385076",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "jiny/shop-account": "^0.1",
+                "jiny/shop-goods": "^0.1",
+                "jiny/shop-order": "^0.1",
+                "jiny/site": "^0.7.0",
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Jiny\\Profile\\JinyProfileServiceProvider"
+                        "Jiny\\Shop\\JinyShopServiceProvider"
                     ]
                 }
             },
@@ -2148,7 +2395,7 @@
                     "src/Helpers/Helper.php"
                 ],
                 "psr-4": {
-                    "Jiny\\Profile\\": "src/"
+                    "Jiny\\Shop\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2158,39 +2405,190 @@
             "authors": [
                 {
                     "name": "hojinlee",
-                    "email": "infohojin@gmail.com",
-                    "homepage": "http://www.jinyphp.com"
+                    "email": "infohojin@gmail.com"
                 }
             ],
-            "description": "profile for JinyPHP",
-            "homepage": "http://www.jinyphp.com",
-            "keywords": [
-                "framwork",
-                "jinyphp",
-                "profile"
-            ],
+            "description": "jiny shopping",
             "support": {
-                "issues": "https://github.com/jinyphp/profile/issues",
-                "source": "https://github.com/jinyphp/profile/tree/0.4"
+                "issues": "https://github.com/jinyphp/shop/issues",
+                "source": "https://github.com/jinyphp/shop/tree/0.1"
             },
-            "time": "2024-05-27T07:48:59+00:00"
+            "time": "2024-06-19T07:46:26+00:00"
         },
         {
-            "name": "jiny/site",
-            "version": "0.2",
+            "name": "jiny/shop-account",
+            "version": "0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jinyphp/site.git",
-                "reference": "0b9b201e1c05856579760b31a57eac01bf1df7b6"
+                "url": "https://github.com/jinyphp/shop-account.git",
+                "reference": "c79efc1364974984546ed7deb2804287e6d4240c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/site/zipball/0b9b201e1c05856579760b31a57eac01bf1df7b6",
-                "reference": "0b9b201e1c05856579760b31a57eac01bf1df7b6",
+                "url": "https://api.github.com/repos/jinyphp/shop-account/zipball/c79efc1364974984546ed7deb2804287e6d4240c",
+                "reference": "c79efc1364974984546ed7deb2804287e6d4240c",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Shop\\Account\\JinyShopAccountServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Shop\\Account\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com"
+                }
+            ],
+            "description": "account for JinyShop",
+            "support": {
+                "issues": "https://github.com/jinyphp/shop-account/issues",
+                "source": "https://github.com/jinyphp/shop-account/tree/0.1"
+            },
+            "time": "2024-05-20T10:25:44+00:00"
+        },
+        {
+            "name": "jiny/shop-goods",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/shop-goods.git",
+                "reference": "f0fd376171c722c3dd4ef14d38b6a2bf32316dbd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/shop-goods/zipball/f0fd376171c722c3dd4ef14d38b6a2bf32316dbd",
+                "reference": "f0fd376171c722c3dd4ef14d38b6a2bf32316dbd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Shop\\Goods\\JinyShopGoodServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Shop\\Goods\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com"
+                }
+            ],
+            "description": "goods for JinyShop",
+            "support": {
+                "issues": "https://github.com/jinyphp/shop-goods/issues",
+                "source": "https://github.com/jinyphp/shop-goods/tree/0.1"
+            },
+            "time": "2024-05-20T10:26:00+00:00"
+        },
+        {
+            "name": "jiny/shop-order",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/shop-order.git",
+                "reference": "3d2ac796b711b3b25fe77464dcbf061df963766c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/shop-order/zipball/3d2ac796b711b3b25fe77464dcbf061df963766c",
+                "reference": "3d2ac796b711b3b25fe77464dcbf061df963766c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Shop\\Order\\JinyShopOrderServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Shop\\Order\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com"
+                }
+            ],
+            "description": "order for JinyShop",
+            "support": {
+                "issues": "https://github.com/jinyphp/shop-order/issues",
+                "source": "https://github.com/jinyphp/shop-order/tree/0.1"
+            },
+            "time": "2024-05-20T10:27:01+00:00"
+        },
+        {
+            "name": "jiny/site",
+            "version": "0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/site.git",
+                "reference": "b3d4009aaaa0801b158352ea075943e535370f37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/site/zipball/b3d4009aaaa0801b158352ea075943e535370f37",
+                "reference": "b3d4009aaaa0801b158352ea075943e535370f37",
+                "shasum": ""
+            },
+            "require": {
+                "jiny/frontmatter": "^0.1.3",
+                "jiny/icons": "^0.3.1",
+                "jiny/markdown": "^0.2",
+                "jiny/menu": "^0.5",
+                "jiny/posts": "^0.0.3",
+                "jiny/theme": "^0.3.1",
+                "jiny/ui": "^0.4.0",
+                "php": "^8.2",
+                "webuni/front-matter": "^2.0"
             },
             "type": "library",
             "extra": {
@@ -2221,71 +2619,9 @@
             "description": "jinySite for Laravel",
             "support": {
                 "issues": "https://github.com/jinyphp/site/issues",
-                "source": "https://github.com/jinyphp/site/tree/0.2"
+                "source": "https://github.com/jinyphp/site/tree/0.7"
             },
-            "time": "2024-05-27T08:26:07+00:00"
-        },
-        {
-            "name": "jiny/social",
-            "version": "0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jinyphp/social.git",
-                "reference": "cee97105a3e483c0b5f2514e970a22cd04a40497"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/social/zipball/cee97105a3e483c0b5f2514e970a22cd04a40497",
-                "reference": "cee97105a3e483c0b5f2514e970a22cd04a40497",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/socialite": "^5.5",
-                "php": "^8.1",
-                "socialiteproviders/kakao": "^4.2",
-                "socialiteproviders/naver": "^4.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Jiny\\Social\\JinySocialServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/Helpers/Helper.php"
-                ],
-                "psr-4": {
-                    "Jiny\\Social\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "hojinlee",
-                    "email": "infohojin@gmail.com",
-                    "homepage": "http://www.jinyphp.com"
-                }
-            ],
-            "description": "social auth for JinyPHP",
-            "homepage": "http://www.jinyphp.com",
-            "keywords": [
-                "auth",
-                "framwork",
-                "jinyphp",
-                "laravel",
-                "social"
-            ],
-            "support": {
-                "issues": "https://github.com/jinyphp/social/issues",
-                "source": "https://github.com/jinyphp/social/tree/0.3"
-            },
-            "time": "2024-04-12T09:05:48+00:00"
+            "time": "2024-06-19T07:36:41+00:00"
         },
         {
             "name": "jiny/theme",
@@ -2346,20 +2682,24 @@
         },
         {
             "name": "jiny/ui",
-            "version": "0.3.5",
+            "version": "0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jinyphp/ui.git",
-                "reference": "bdffbb0e26373c9e1624ccbe053f17c80484c9ea"
+                "reference": "484e88d640868215232a05aecd8026dfb203a77c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/ui/zipball/bdffbb0e26373c9e1624ccbe053f17c80484c9ea",
-                "reference": "bdffbb0e26373c9e1624ccbe053f17c80484c9ea",
+                "url": "https://api.github.com/repos/jinyphp/ui/zipball/484e88d640868215232a05aecd8026dfb203a77c",
+                "reference": "484e88d640868215232a05aecd8026dfb203a77c",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "jiny/css": "^0.0.3",
+                "jiny/html": "^0.3",
+                "jiny/ui-components": "^0.5.0",
+                "jiny/ui-widgets": "^0.3.0",
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
@@ -2393,32 +2733,32 @@
             "description": "ui for JinyPHP",
             "support": {
                 "issues": "https://github.com/jinyphp/ui/issues",
-                "source": "https://github.com/jinyphp/ui/tree/0.3.5"
+                "source": "https://github.com/jinyphp/ui/tree/0.4"
             },
-            "time": "2024-05-18T09:03:07+00:00"
+            "time": "2024-06-19T06:39:05+00:00"
         },
         {
-            "name": "jiny/ui2",
-            "version": "0.3",
+            "name": "jiny/ui-components",
+            "version": "0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jinyphp/ui2.git",
-                "reference": "5a6bdcce493de006d6878fdcb178da76dfaddc6e"
+                "url": "https://github.com/jinyphp/ui-components.git",
+                "reference": "f2351c8c132c5e9ee151774b05bf50185352a616"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/ui2/zipball/5a6bdcce493de006d6878fdcb178da76dfaddc6e",
-                "reference": "5a6bdcce493de006d6878fdcb178da76dfaddc6e",
+                "url": "https://api.github.com/repos/jinyphp/ui-components/zipball/f2351c8c132c5e9ee151774b05bf50185352a616",
+                "reference": "f2351c8c132c5e9ee151774b05bf50185352a616",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Jiny\\UI2\\JinyUI2ServiceProvider"
+                        "Jiny\\UI\\Components\\JinyUIComponentServiceProvider"
                     ]
                 }
             },
@@ -2427,7 +2767,7 @@
                     "src/Helpers/Helper.php"
                 ],
                 "psr-4": {
-                    "Jiny\\UI2\\": "src/"
+                    "Jiny\\UI\\Components\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2440,82 +2780,25 @@
                     "email": "infohojin@gmail.com"
                 }
             ],
-            "description": "jiny theme ui hpyer with bootstrap",
+            "description": "jiny ui components",
             "support": {
-                "issues": "https://github.com/jinyphp/ui2/issues",
-                "source": "https://github.com/jinyphp/ui2/tree/0.3"
+                "issues": "https://github.com/jinyphp/ui-components/issues",
+                "source": "https://github.com/jinyphp/ui-components/tree/0.5"
             },
-            "time": "2024-04-12T09:06:43+00:00"
+            "time": "2024-06-19T06:33:26+00:00"
         },
         {
-            "name": "jiny/users",
+            "name": "jiny/ui-widgets",
             "version": "0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jinyphp/users.git",
-                "reference": "8eb0b96a44716e735f0070ad25af548082f4de53"
+                "url": "https://github.com/jinyphp/ui-widgets.git",
+                "reference": "96d8f5edac0a86fa807300758c67c4c5528e913a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/users/zipball/8eb0b96a44716e735f0070ad25af548082f4de53",
-                "reference": "8eb0b96a44716e735f0070ad25af548082f4de53",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Jiny\\Users\\JinyUserServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/Helpers/Helper.php"
-                ],
-                "psr-4": {
-                    "Jiny\\Users\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "hojinlee",
-                    "email": "infohojin@gmail.com",
-                    "homepage": "http://www.jinyphp.com"
-                }
-            ],
-            "description": "users for JinyPHP",
-            "homepage": "http://www.jinyphp.com",
-            "keywords": [
-                "Users",
-                "framwork",
-                "jinyphp"
-            ],
-            "support": {
-                "issues": "https://github.com/jinyphp/users/issues",
-                "source": "https://github.com/jinyphp/users/tree/0.3"
-            },
-            "time": "2024-04-12T10:02:04+00:00"
-        },
-        {
-            "name": "jiny/widgets",
-            "version": "0.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jinyphp/widgets.git",
-                "reference": "ce9b31977939c174fc95f39f2b4bcdf91f55b9fb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/widgets/zipball/ce9b31977939c174fc95f39f2b4bcdf91f55b9fb",
-                "reference": "ce9b31977939c174fc95f39f2b4bcdf91f55b9fb",
+                "url": "https://api.github.com/repos/jinyphp/ui-widgets/zipball/96d8f5edac0a86fa807300758c67c4c5528e913a",
+                "reference": "96d8f5edac0a86fa807300758c67c4c5528e913a",
                 "shasum": ""
             },
             "require": {
@@ -2556,26 +2839,27 @@
                 "widgets"
             ],
             "support": {
-                "issues": "https://github.com/jinyphp/widgets/issues",
-                "source": "https://github.com/jinyphp/widgets/tree/0.0.5"
+                "issues": "https://github.com/jinyphp/ui-widgets/issues",
+                "source": "https://github.com/jinyphp/ui-widgets/tree/0.3"
             },
-            "time": "2024-05-18T09:04:29+00:00"
+            "time": "2024-06-19T06:14:19+00:00"
         },
         {
-            "name": "jiny/wiretable",
-            "version": "0.3.3",
+            "name": "jiny/wire-table",
+            "version": "0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jinyphp/wire-table.git",
-                "reference": "884c59bee0698d5797642ce38f533c889a3916f4"
+                "reference": "3a99c18aa9e421326da784805bd1774f655ec199"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jinyphp/wire-table/zipball/884c59bee0698d5797642ce38f533c889a3916f4",
-                "reference": "884c59bee0698d5797642ce38f533c889a3916f4",
+                "url": "https://api.github.com/repos/jinyphp/wire-table/zipball/3a99c18aa9e421326da784805bd1774f655ec199",
+                "reference": "3a99c18aa9e421326da784805bd1774f655ec199",
                 "shasum": ""
             },
             "require": {
+                "livewire/livewire": "^3.5",
                 "php": "^8.1"
             },
             "type": "library",
@@ -2607,9 +2891,9 @@
             "description": "livewire with data-tabel controller",
             "support": {
                 "issues": "https://github.com/jinyphp/wire-table/issues",
-                "source": "https://github.com/jinyphp/wire-table/tree/0.3.3"
+                "source": "https://github.com/jinyphp/wire-table/tree/0.7"
             },
-            "time": "2024-05-10T08:23:23+00:00"
+            "time": "2024-06-19T05:32:43+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3000,16 +3284,16 @@
         },
         {
             "name": "laravel/socialite",
-            "version": "v5.14.0",
+            "version": "v5.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/socialite.git",
-                "reference": "c7b0193a3753a29aff8ce80aa2f511917e6ed68a"
+                "reference": "c8234bfb286a8210df8d62f94562c71bfda4a446"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/socialite/zipball/c7b0193a3753a29aff8ce80aa2f511917e6ed68a",
-                "reference": "c7b0193a3753a29aff8ce80aa2f511917e6ed68a",
+                "url": "https://api.github.com/repos/laravel/socialite/zipball/c8234bfb286a8210df8d62f94562c71bfda4a446",
+                "reference": "c8234bfb286a8210df8d62f94562c71bfda4a446",
                 "shasum": ""
             },
             "require": {
@@ -3068,7 +3352,7 @@
                 "issues": "https://github.com/laravel/socialite/issues",
                 "source": "https://github.com/laravel/socialite"
             },
-            "time": "2024-05-03T20:31:38+00:00"
+            "time": "2024-06-11T13:33:20+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -4359,20 +4643,20 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.37",
+            "version": "3.0.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "cfa2013d0f68c062055180dd4328cc8b9d1f30b8"
+                "reference": "b18b8788e51156c4dd97b7f220a31149a0052067"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/cfa2013d0f68c062055180dd4328cc8b9d1f30b8",
-                "reference": "cfa2013d0f68c062055180dd4328cc8b9d1f30b8",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/b18b8788e51156c4dd97b7f220a31149a0052067",
+                "reference": "b18b8788e51156c4dd97b7f220a31149a0052067",
                 "shasum": ""
             },
             "require": {
-                "paragonie/constant_time_encoding": "^1|^2",
+                "paragonie/constant_time_encoding": "^1|^2|^3",
                 "paragonie/random_compat": "^1.4|^2.0|^9.99.99",
                 "php": ">=5.6.1"
             },
@@ -4449,7 +4733,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.37"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.38"
             },
             "funding": [
                 {
@@ -4465,7 +4749,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-03T02:14:58+00:00"
+            "time": "2024-06-17T10:11:32+00:00"
         },
         {
             "name": "pragmarx/google2fa",
@@ -8042,6 +8326,81 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "webuni/front-matter",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webuni/front-matter.git",
+                "reference": "051db3609a357652a429cf3212634baf4b6586cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webuni/front-matter/zipball/051db3609a357652a429cf3212634baf4b6586cd",
+                "reference": "051db3609a357652a429cf3212634baf4b6586cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "symfony/yaml": "^3.4.31 || ^4.3.4 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "friendsofphp/php-cs-fixer": "^3.41",
+                "league/commonmark": "^2.0",
+                "mthaml/mthaml": "^1.3",
+                "nette/neon": "^2.2 || ^3.0",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.6",
+                "twig/twig": "^3.0",
+                "yosymfony/toml": "^1.0"
+            },
+            "suggest": {
+                "nette/neon": "If you want to use NEON as front matter",
+                "yosymfony/toml": "If you want to use TOML as front matter"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webuni\\FrontMatter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Hasoň",
+                    "email": "martin.hason@gmail.com",
+                    "homepage": "https://www.martinhason.cz"
+                },
+                {
+                    "name": "Webuni s.r.o.",
+                    "homepage": "https://www.webuni.cz"
+                }
+            ],
+            "description": "Front matter parser and dumper for PHP",
+            "homepage": "https://github.com/webuni/front-matter",
+            "keywords": [
+                "commonmark",
+                "front-matter",
+                "json",
+                "neon",
+                "toml",
+                "yaml"
+            ],
+            "support": {
+                "issues": "https://github.com/webuni/front-matter/issues",
+                "source": "https://github.com/webuni/front-matter/tree/2.0.0"
+            },
+            "time": "2024-02-22T07:39:34+00:00"
         }
     ],
     "packages-dev": [

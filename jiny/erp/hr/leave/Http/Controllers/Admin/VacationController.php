@@ -20,7 +20,7 @@ class VacationController extends WireTablePopupForms
         $this->actions['table'] = "hr_vacation";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
+        //$this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
         // $this->actions['view']['table']";
@@ -31,7 +31,10 @@ class VacationController extends WireTablePopupForms
 
         $this->actions['title'] = "휴가";
         $this->actions['subtitle'] = "휴가 목록.";
-        $this->actions['view']['title'] = "jinyerp-hr-leave::admin.vacation.title";
+        //$this->actions['view']['title'] = "jinyerp-hr-leave::admin.vacation.title";
+
+        // 테마를 적용합니다.
+        $this->setTheme("jinyerp/hr-admin");
 
 
     }

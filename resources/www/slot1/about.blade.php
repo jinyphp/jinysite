@@ -1,16 +1,26 @@
 <x-www-layout>
 
+    <section class="py-5">
+        <div class="container px-5">
+            @livewire('WidgetHero-Heading', [
+                'filename' => "about_hero_text1"
+            ])
+
+        </div>
+    </section>
+
+
     <!-- Section Header-->
     <section class="py-5">
         <div class="container px-5">
-            @livewire('WidgetHero', [
-                'filename' => "jiny.widgets.hero_text1",
+            @livewire('WidgetHero-Heading', [
+                'filename' => "about_hero_text1",
                 'widget' =>[
                     'view' =>[
                         'list' => "jiny-widgets::hero.text1.main"
                     ]
                 ]
-            ],"aa")
+            ])
 
         </div>
     </section>
@@ -18,16 +28,9 @@
     <!-- About section one-->
     <section class="py-5 bg-light" id="scroll-target">
         <div class="container px-5 my-5">
-
-            @livewire('WidgetCard', [
-                'filename' => "jiny.widgets.visual_text_card",
-                'widget' =>[
-                    'view' =>[
-                        'list' => "jiny-widgets::card.visual_text.list_left"
-                    ]
-                ]
-            ],"aa")
-
+            @livewire('WidgetCard-Left', [
+                'filename' => "about_card_left"
+            ])
         </div>
     </section>
 
@@ -35,14 +38,9 @@
     <section class="py-5">
         <div class="container px-5 my-5">
 
-            @livewire('WidgetCard', [
-                'filename' => "jiny.widgets.visual_text_card",
-                'widget' =>[
-                    'view' =>[
-                        'list' => "jiny-widgets::card.visual_text.list_right"
-                    ]
-                ]
-            ],"bb")
+            @livewire('WidgetCard-Right', [
+                'filename' => "about_card_right"
+            ])
 
         </div>
     </section>
@@ -51,8 +49,18 @@
     <section class="py-5 bg-light">
         <div class="container px-5 my-5">
 
-            @livewire('WidgetList-ourteams', [
-                'filename' => "jiny.widgets.about_teams"
+            @livewire('WidgetGrid-Avatas', [
+                'filename' => "about_teams"
+            ])
+
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container px-5 my-5">
+
+            @livewire('WidgetList-Faq', [
+                'filename' => "about_faq"
             ])
 
         </div>

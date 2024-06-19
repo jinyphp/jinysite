@@ -44,12 +44,19 @@ Route::middleware(['web', 'auth', 'verified'])->group(function () {
     });
 });
 
+
 // HR Admin
 Route::middleware(['web','auth:sanctum', 'verified', 'admin', 'super'])->group(function () {
-    Route::prefix('/admin/hr')->name('admin.hr.')->group(function () {
+    Route::prefix('/hr/admin')->name('admin.hr.')->group(function () {
 
         Route::get('/employee', [
             \Jiny\Erp\Hr\Employee\Http\Controllers\Admin\EmployeeController::class,
+            "index"
+        ]);
+
+        ## 사원-상태
+        Route::get('employee/status', [
+            \Jiny\Erp\Hr\Employee\Http\Controllers\Admin\EmployeeStatus::class,
             "index"
         ]);
 

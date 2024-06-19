@@ -21,7 +21,7 @@ class FamilyController extends WireTablePopupForms
         $this->actions['table'] = "hr_family";
 
         // 컨트롤러 페이지 레이아웃
-        $this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
+        //$this->actions['view']['layout'] = "jinyerp-hr-home::layouts.layout";
 
         // 테이블 레이아웃
         // $this->actions['view']['table']";
@@ -34,7 +34,10 @@ class FamilyController extends WireTablePopupForms
 
         $this->actions['title'] = "부양가족";
         $this->actions['subtitle'] = "사원별 복지 및 공제를 위한 부양가족 정보를 관리합니다.";
-        $this->actions['view']['title'] = "jinyerp-hr-employee::admin.family.title";
+
+        // 테마를 적용합니다.
+        $this->setTheme("jinyerp/hr-admin");
+
 
 
     }
