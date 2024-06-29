@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-layout="topnav">
+
+    <head>
+        @@include("./partials/title-meta.html", {"title": "Horizontal Layout"})
+
+        <!-- Plugin css -->
+        <link rel="stylesheet" href="assets/vendor/daterangepicker/daterangepicker.css">
+        <link href="assets/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+
+        @@include('./partials/head-css.html')
+    </head>
+
+    <body>
+        <!-- Begin page -->
+        <div class="wrapper">
+
+            @@include('./partials/topbar.html')
+
+            @@include('./partials/horizontal-nav.html')
+            
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+
+                        @@include("./partials/page-title.html", {"subtitle":"Pages","title":"Horizontal Layout"})
+                        
+                    </div>
+                    <!-- container -->
+
+                </div>
+                <!-- content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        @@include('./partials/right-sidebar.html')        
+        
+        @@include('./partials/footer-scripts.html')
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+
+    </body>
+</html>

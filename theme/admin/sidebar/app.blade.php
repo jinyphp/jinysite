@@ -15,6 +15,7 @@
 
         {{-- <link rel="stylesheet" href="https://jinyphp.github.io/css/assets/css/app.css"> --}}
         @vite('resources/css/app.scss')
+        @vite('resources/css/tailwind.scss')
 
         @stack('css')
 

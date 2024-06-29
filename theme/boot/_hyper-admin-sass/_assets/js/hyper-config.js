@@ -1,0 +1,97 @@
+/**
+* Theme: Hyper - Responsive Bootstrap 5 Admin Dashboard
+* Author: Coderthemes
+* Module/App: Theme Config Js
+*/
+
+(function () {
+    var savedConfig = sessionStorage.getItem("__HYPER_CONFIG__");
+    // var savedConfig = localStorage.getItem("__HYPER_CONFIG__");
+
+    var html = document.getElementsByTagName("html")[0];
+
+    //  Default Config Value
+    var defaultConfig = {
+        theme: "light",
+
+        nav: "vertical",
+
+        layout: {
+            mode: "fluid",
+            position: "fixed",
+        },
+
+        topbar: {
+            color: "light",
+        },
+
+        // This option for only vertical (left Sidebar) layout
+        sidenav: {
+            color: "dark",
+            size: "default",
+            user: false,
+        },
+    };
+
+
+    this.html = document.getElementsByTagName('html')[0];
+    
+    config = Object.assign(JSON.parse(JSON.stringify(defaultConfig)), {});
+
+    var layoutColor = this.html.getAttribute('data-theme');
+    config['theme'] = layoutColor !== null ? layoutColor : defaultConfig.theme;
+
+    var layoutNav = this.html.getAttribute('data-layout');
+    config['nav'] = layoutNav !== null ? layoutNav === 'topnav' ? 'horizontal' : 'vertical' : defaultConfig.nav;
+
+    var layoutSize = this.html.getAttribute('data-layout-mode');
+    config['layout']['mode'] = layoutSize !== null ? layoutSize : defaultConfig.layout.mode;
+
+    var layoutMode = this.html.getAttribute('data-layout-position');
+    config['layout']['position'] = layoutMode !== null ? layoutMode : defaultConfig.layout.position;
+
+    var topbarColor = this.html.getAttribute('data-topbar-color');
+    config['topbar']['color'] = topbarColor != null ? topbarColor : defaultConfig.topbar.color;
+
+    var leftbarColor = this.html.getAttribute('data-sidenav-color');
+    config['sidenav']['color'] = leftbarColor !== null ? leftbarColor : defaultConfig.sidenav.color;
+
+    var leftbarSize = this.html.getAttribute('data-sidenav-size');
+    config['sidenav']['size'] = leftbarSize !== null ? leftbarSize : defaultConfig.sidenav.size;
+
+    var sidebarUser = this.html.getAttribute('data-sidenav-user')
+    config['sidenav']['user'] = sidebarUser !== null ? true : defaultConfig.sidenav.user;
+
+    window.defaultConfig = JSON.parse(JSON.stringify(config));
+
+    if (savedConfig !== null) {
+        config = JSON.parse(savedConfig);
+    }
+
+    window.config = config;
+
+
+    if (html.getAttribute("data-layout") === "topnav") {
+        config.nav = "horizontal"
+    } else {
+        config.nav = "vertical"
+    }
+
+    if (config) {
+        html.setAttribute("data-theme", config.theme);
+        html.setAttribute("data-layout-mode", config.layout.mode);
+        html.setAttribute("data-topbar-color", config.topbar.color);
+        if (config.nav == "vertical") {
+            html.setAttribute("data-sidenav-size", config.sidenav.size);
+            html.setAttribute("data-sidenav-color", config.sidenav.color);
+            html.setAttribute("data-layout-position", config.layout.position);
+            if (config.sidenav.user && config.sidenav.user.toString() === "true") {
+                html.setAttribute("data-sidenav-user", true);
+            } else {
+                html.removeAttribute("data-sidenav-user");
+            }
+        }
+    }
+})();
+
+

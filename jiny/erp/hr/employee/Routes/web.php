@@ -17,7 +17,7 @@ function cUserEmployee()
 // 인증 사용자 라우트
 //
 Route::middleware(['web', 'auth', 'verified'])->group(function () {
-    Route::prefix('/jiny/hr/employee')->name('hr.')->group(function () {
+    Route::prefix('/hr/user')->name('hr.')->group(function () {
         ## 부양가족
         Route::get('family', [
             \Jiny\Erp\Hr\Employee\Http\Controllers\User\FamilyController::class,

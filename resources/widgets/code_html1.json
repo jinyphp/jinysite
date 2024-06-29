@@ -1,0 +1,8 @@
+{
+    "items": {
+        "updated_at": "2024-06-27 11:52:12",
+        "code": "<div class=\"alert alert-primary\" role=\"alert\">\n  A simple primary alert—check it out!\n<\/div>\n<div class=\"alert alert-secondary\" role=\"alert\">\n  A simple secondary alert—check it out!\n<\/div>\n<div class=\"alert alert-success\" role=\"alert\">\n  A simple success alert—check it out!\n<\/div>\n<div class=\"alert alert-danger\" role=\"alert\">\n  A simple danger alert—check it out!\n<\/div>\n<div class=\"alert alert-warning\" role=\"alert\">\n  A simple warning alert—check it out!\n<\/div>\n<div class=\"alert alert-info\" role=\"alert\">\n  A simple info alert—check it out!\n<\/div>\n<div class=\"alert alert-light\" role=\"alert\">\n  A simple light alert—check it out!\n<\/div>\n<div class=\"alert alert-dark\" role=\"alert\">\n  A simple dark alert—check it out!\n<\/div>",
+        "title": "Alerts",
+        "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages."
+    }
+}
