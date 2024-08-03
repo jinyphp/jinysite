@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f724b677b14e19f00c0f8c05d71f48fd",
+    "content-hash": "29acb4ea7943c01aa61600fba9a803fc",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2622,6 +2622,106 @@
                 "source": "https://github.com/jinyphp/site/tree/0.7"
             },
             "time": "2024-06-19T07:36:41+00:00"
+        },
+        {
+            "name": "jiny/site-board",
+            "version": "0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/site-board.git",
+                "reference": "09b7d7e02c795e75144bb14fdad6799c05f87bb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/site-board/zipball/09b7d7e02c795e75144bb14fdad6799c05f87bb1",
+                "reference": "09b7d7e02c795e75144bb14fdad6799c05f87bb1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Site\\Board\\JinySiteBoardServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Site\\Board\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com"
+                }
+            ],
+            "description": "jinySite Board for Laravel",
+            "support": {
+                "issues": "https://github.com/jinyphp/site-board/issues",
+                "source": "https://github.com/jinyphp/site-board/tree/0.2"
+            },
+            "time": "2024-07-28T08:46:12+00:00"
+        },
+        {
+            "name": "jiny/site-cms",
+            "version": "0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/site-cms.git",
+                "reference": "4bb45887659fd666ef9c8beb6d0463c23f2f6fc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/site-cms/zipball/4bb45887659fd666ef9c8beb6d0463c23f2f6fc1",
+                "reference": "4bb45887659fd666ef9c8beb6d0463c23f2f6fc1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Site\\CMS\\JinySiteCMSServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Site\\CMS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com"
+                }
+            ],
+            "description": "jinySite for Laravel",
+            "support": {
+                "issues": "https://github.com/jinyphp/site-cms/issues",
+                "source": "https://github.com/jinyphp/site-cms/tree/0.2"
+            },
+            "time": "2024-07-24T05:41:07+00:00"
         },
         {
             "name": "jiny/theme",

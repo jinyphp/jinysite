@@ -27,3 +27,5 @@ package-lock.json
 /database/database.sqlite
 
 /jiny
+
+/modules

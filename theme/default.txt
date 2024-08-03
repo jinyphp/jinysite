@@ -1,1 +1,1 @@
-boot/cartzilla
+admin.sidebar
