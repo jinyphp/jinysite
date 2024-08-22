@@ -1,13 +1,13 @@
-# JinyERP V2.1
-`지니ERP`은 지니PHP를 기반으로 제작된 전사적 업무지원 서비스입니다.
+# JinySite v1.0
+`지니Site`은 지니PHP를 기반으로 제작된 CMS 입니다.
 
 ## 설치
-지니ERP는 라라벨을 기반으로 개발 되었습니다. 이를 사용하기 위해서는 PHP언어와 컴포저, nodejs, 그리고 Mysql과 같은 RDBMS가 필요로 합니다.
+지니Site는 라라벨을 기반으로 개발 되었습니다. 이를 사용하기 위해서는 PHP언어와 컴포저, nodejs, 그리고 Mysql과 같은 RDBMS가 필요로 합니다.
 
-먼저 기본 골격의 지니ERP를 설치합니다. 
+먼저 기본 골격의 지니Site를 설치합니다. 
 
 ```bash
-composer create-project jiny/jinyerp 프로젝트
+composer create-project jiny/jinysite 프로젝트
 ```
 
 ### 패키지 및 모듈

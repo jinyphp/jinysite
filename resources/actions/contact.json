@@ -1,0 +1,14 @@
+{
+    "view": {
+        "layout": "www::shop_fashion-v1.contact-v1"
+    },
+    "updated_at": "2024-08-04 10:53:30",
+    "blade": [
+        "contact1",
+        "contact5",
+        "contact2",
+        "contact3",
+        "contact4",
+        "contact6"
+    ]
+}

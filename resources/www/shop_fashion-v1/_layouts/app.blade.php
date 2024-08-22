@@ -59,11 +59,9 @@
         @partials("back_to_top")
 
 
-        <x-set-actions>
 
-        </x-set-actions>
-
-
+        <x-set-actions></x-set-actions>
+        <x-site-setting></x-site-setting>
 
 
         {{-- 자바스크립트 코드 부분, 계속 추가해야 --}}

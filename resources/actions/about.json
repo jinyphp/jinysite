@@ -1,0 +1,11 @@
+{
+    "view": {
+        "layout": "www::shop_fashion-v1.about-v1"
+    },
+    "updated_at": "2024-08-06 08:55:40",
+    "blade": {
+        "0": "about2",
+        "2": "about1",
+        "3": null
+    }
+}

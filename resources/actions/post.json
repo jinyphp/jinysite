@@ -1,6 +1,6 @@
 {
     "view_main_layout": "jiny-site-board::site.post.layout",
-    "updated_at": "2024-08-03 09:00:26",
+    "updated_at": "2024-08-06 07:43:39",
     "view": {
         "layout": "jiny-site-board::site.post.layout",
         "list": "jiny-site-board::site.post_grid.item",

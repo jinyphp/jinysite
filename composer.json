@@ -6,18 +6,16 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "jiny/admin": "^0.4.0",
-        "jiny/auth": "^0.7.0",
-        "jiny/laravel": "^0.1.0",
-        "jiny/shop": "^0.1.0",
-        "jiny/site": "^0.7.0",
-        "jiny/site-board": "^0.2.0",
-        "jiny/site-cms": "^0.2.0",
+
+        "jiny/laravel": "^0.7",
+        "jiny/site": "^0.9",
+        "jiny/shop": "^0.2",
+
         "laravel/framework": "^11.9",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
-        "livewire/livewire": "^3.5",
-        "webuni/front-matter": "^2.0"
+        "livewire/livewire": "^3.5"
+
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
