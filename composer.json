@@ -1,8 +1,8 @@
 {
-    "name": "jiny/jinyerp",
+    "name": "jiny/jinsite",
     "type": "project",
-    "description": "The skeleton application for JinyERP",
-    "keywords": ["jinyerp"],
+    "description": "The skeleton application for JinySite",
+    "keywords": ["jinysite"],
     "license": "MIT",
     "require": {
         "php": "^8.2",

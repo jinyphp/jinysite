@@ -7,7 +7,8 @@ export default defineConfig({
             input: [
                 'resources/css/app.scss',
                 'resources/css/tailwind.scss',
-                'resources/js/app.js'
+                'resources/js/app.js',
+                'resources/js/chart.js'
             ],
             refresh: true,
         }),
