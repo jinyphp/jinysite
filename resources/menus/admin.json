@@ -1,0 +1,72 @@
+{
+    "items": [
+        {
+            "title": "admin",
+            "header": true,
+            "updated_at": "2024-09-15 06:14:05"
+        },
+        {
+            "title": "라라벨",
+            "href": "\/admin\/laravel"
+        },
+        {
+            "title": "회원관리",
+            "href": "\/admin\/auth"
+        },
+        {
+            "icon": "",
+            "href": "\/admin\/actions",
+            "title": "Actions"
+        },
+        {
+            "title": "지역설정",
+            "href": "\/admin\/locale"
+        },
+        {
+            "title": "모듈",
+            "header": true
+        },
+        {
+            "title": "모듈관리",
+            "href": "\/admin\/modules"
+        },
+        {
+            "title": "패키지"
+        },
+        {
+            "title": "웹서비스",
+            "header": true
+        },
+        {
+            "title": "사이트빌더",
+            "href": "\/admin\/site"
+        },
+        {
+            "title": "쇼핑몰",
+            "href": "\/admin\/shop"
+        },
+        {
+            "title": "UI"
+        },
+        {
+            "title": "테마",
+            "href": "\/admin\/theme"
+        },
+        {
+            "title": "ERP 업무관리",
+            "header": true
+        },
+        {
+            "title": "기초정보"
+        },
+        {
+            "title": "인사관리"
+        },
+        {
+            "title": "판매재고"
+        },
+        {
+            "title": "고객관리"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "board": "1:뉴스룸",
+    "viewCreateFile": "jiny-site-board::site.board_popup.create",
+    "delete": {
+        "check": true
+    }
+}

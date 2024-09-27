@@ -8,7 +8,9 @@ export default defineConfig({
                 'resources/css/app.scss',
                 'resources/css/tailwind.scss',
                 'resources/js/app.js',
-                'resources/js/chart.js'
+                'resources/js/chart.js',
+
+                //'resources/css/geeks/theme.scss',
             ],
             refresh: true,
         }),

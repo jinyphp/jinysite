@@ -1,4 +1,6 @@
-<x-www_docs>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
   <!-- Page title -->
   <section class="py-2 pb-sm-3">
     <a class="badge d-inline-flex align-items-center text-info bg-info-subtle fw-semibold text-decoration-none py-2 px-3 mb-2 rounded-pill"
@@ -1216,4 +1218,6 @@ toastBootstrap.show()
       </div>
     </div>
   </section>
-</x-www_docs>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

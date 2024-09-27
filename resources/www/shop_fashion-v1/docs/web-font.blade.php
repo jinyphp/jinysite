@@ -1,4 +1,6 @@
-<x-www_docs>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
 
     <!-- Page title -->
     <section class="py-2 pb-3 pb-lg-4">
@@ -75,4 +77,6 @@
             variable, you must create a separate <code>@font-face</code> rule for each <code>weight</code> and
             <code>style</code>, similar to the setup seen in the Google Fonts API generated link.</p>
     </section>
-</x-www_docs>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

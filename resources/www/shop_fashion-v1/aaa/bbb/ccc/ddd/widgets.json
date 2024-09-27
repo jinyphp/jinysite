@@ -1,0 +1,72 @@
+[
+    {
+        "created_at": "2024-08-31 05:25:23",
+        "updated_at": "2024-08-31 05:25:23",
+        "enable": 1,
+        "route": "/aaa/bbb/ccc/ddd",
+        "path": "bbb.blade.php",
+        "element": "widget-blade",
+        "pos": 1,
+        "ref": 0,
+        "level": 1
+    },
+    {
+        "created_at": "2024-08-31 05:24:46",
+        "updated_at": "2024-08-31 05:24:46",
+        "enable": 1,
+        "route": "/aaa/bbb/ccc/ddd",
+        "path": "markdown_22.md",
+        "element": "widget-markdown",
+        "pos": 1,
+        "ref": 0,
+        "level": 1
+    },
+    {
+        "created_at": "2024-09-01 08:15:53",
+        "updated_at": "2024-09-01 08:15:53",
+        "enable": 1,
+        "route": "/aaa/bbb/ccc/ddd",
+        "path": {
+            "2": "eWikLsUsFzcORkXoaZgydLemJH1fiktlI0oWDJnF.jpg",
+            "3": "kk83Dnt1jsDbFmiT6tccnCvMfw8MV2VXFGjU6MW8.jpg",
+            "4": "7MCTGxEjK8DkDourkHOin26TrpwS6NzR4JmdEOtC.jpg"
+        },
+        "element": "widget-image",
+        "pos": 1,
+        "ref": 0,
+        "level": 1
+    },
+    {
+        "created_at": "2024-08-31 05:25:23",
+        "updated_at": "2024-08-31 05:25:23",
+        "enable": 1,
+        "route": "/aaa/bbb/ccc/ddd",
+        "path": "aaa4.blade.php",
+        "element": "widget-blade",
+        "pos": 1,
+        "ref": 0,
+        "level": 1
+    },
+    {
+        "created_at": "2024-09-02 06:44:45",
+        "updated_at": "2024-09-02 06:44:45",
+        "enable": 1,
+        "route": "/aaa/bbb/ccc/ddd",
+        "path": "hello.html",
+        "element": "widget-html",
+        "pos": 1,
+        "ref": 0,
+        "level": 1
+    },
+    {
+        "created_at": "2024-09-03 06:42:07",
+        "updated_at": "2024-09-03 06:42:07",
+        "enable": 1,
+        "route": "/aaa/bbb/ccc/ddd",
+        "path": "hello.html",
+        "element": "widget-html",
+        "pos": 1,
+        "ref": 0,
+        "level": 1
+    }
+]

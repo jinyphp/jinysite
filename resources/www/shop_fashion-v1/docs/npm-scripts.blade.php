@@ -1,4 +1,6 @@
-<x-www_docs>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
 
   <!-- Page title -->
   <section class="py-2 pb-4">
@@ -133,4 +135,6 @@
       </table>
     </div>
   </section>
-</x-www_docs>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

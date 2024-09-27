@@ -63,9 +63,10 @@
 
         <!-- Sidebar navigation -->
         <aside class="col-lg-3 pe-xl-4">
-          <x-www_docs-sidemenu>
 
-          </x-www_docs-sidemenu>
+            <x-www_docs-sidemenu2>
+            </x-www_docs-sidemenu2>
+
         </aside>
 
         <!-- Page content -->

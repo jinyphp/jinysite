@@ -1,5 +1,10 @@
 {
-    "updated_at": "2024-08-07 06:22:36",
+    "updated_at": "2024-09-25 06:20:17",
     "aaa": "안녕하세요",
-    "bbb": "반갑습니다."
+    "bbb": "반갑습니다.",
+    "layouts": {
+        "header": "header",
+        "footer": "footer2"
+    },
+    "theme": ""
 }

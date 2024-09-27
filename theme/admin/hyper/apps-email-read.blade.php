@@ -1,15 +1,10 @@
 <x-theme name="admin.hyper">
-     <!-- SimpleMDE css -->
-     <link href="assets/vendor/simplemde/simplemde.min.css" rel="stylesheet" type="text/css" />
+    <!-- SimpleMDE css -->
+    <link href="assets/vendor/simplemde/simplemde.min.css" rel="stylesheet" type="text/css" />
 
-
-    <div class="content-page">
-        <div class="content">
-
-            <!-- Start Content-->
-            <div class="container-fluid">
-
-                <!-- start page email-title -->
+    <x-theme-layout>
+        <x-theme-main>
+            <!-- start page email-title -->
                 <!-- start page title -->
                 <div class="row">
                     <div class="col-12">
@@ -249,9 +244,8 @@
                     </div> <!-- end Col -->
                 </div><!-- End row -->
 
-            </div> <!-- container -->
 
-        </div> <!-- content -->
+        </x-theme-main>
 
         <!-- Compose Modal -->
         <div id="compose-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="compose-header-modalLabel" aria-hidden="true">
@@ -287,31 +281,12 @@
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
 
-        <!-- Footer Start -->
-        <footer class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <script>document.write(new Date().getFullYear())</script> © Hyper - Coderthemes.com
-                    </div>
-                    <div class="col-md-6">
-                        <div class="text-md-end footer-links d-none d-md-block">
-                            <a href="javascript: void(0);">About</a>
-                            <a href="javascript: void(0);">Support</a>
-                            <a href="javascript: void(0);">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- end Footer -->
+    </x-theme-layout>
 
-    </div>
+     <!-- SimpleMDE js -->
+     <script src="assets/vendor/simplemde/simplemde.min.js"></script>
 
-    <!-- SimpleMDE js -->
-    <script src="assets/vendor/simplemde/simplemde.min.js"></script>
-
-    <!-- Page init js -->
-    <script src="assets/js/pages/demo.inbox.js"></script>
+     <!-- Page init js -->
+     <script src="assets/js/pages/demo.inbox.js"></script>
 
 </x-theme>

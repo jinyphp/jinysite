@@ -1,4 +1,6 @@
-<x-www_docs>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
 
   <!-- Page title -->
   <section class="py-2 pb-3 pb-lg-4">
@@ -71,4 +73,6 @@ $enable-cssgrid: true;</code></pre>
       Alternatively, if set to <code>media-query</code>, the color mode will respond to the user's system preferences.
     </p>
   </section>
-</x-www_docs>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

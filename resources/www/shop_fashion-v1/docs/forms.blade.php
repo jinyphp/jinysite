@@ -1,4 +1,6 @@
-<x-www_docs>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
 
   <!-- Page title -->
   <section class="pt-2 pb-md-2">
@@ -2087,4 +2089,6 @@
       </div>
     </div>
   </section>
-</x-www_docs>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

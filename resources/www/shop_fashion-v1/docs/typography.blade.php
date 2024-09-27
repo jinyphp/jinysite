@@ -1,4 +1,6 @@
-<x-www_docs>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
 
           <!-- Page title -->
           <section class="py-2 pb-sm-3">
@@ -655,7 +657,9 @@
               </div>
             </div>
           </section>
-</x-www_docs>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>
 
 
 

@@ -1,0 +1,107 @@
+{
+    "items": [
+        {
+            "title": "Getting start",
+            "header": true,
+            "updated_at": "2024-09-11 07:41:24",
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-code\" viewBox=\"0 0 16 16\">   <path d=\"M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8z\"\/> <\/svg>"
+        },
+        {
+            "title": "installation",
+            "items": [
+                {
+                    "title": "Prerequisites"
+                },
+                {
+                    "title": "Dev environment"
+                },
+                {
+                    "title": "Text editor or CLI"
+                },
+                {
+                    "title": "Installing Node.js, npm and dependencies"
+                }
+            ]
+        },
+        {
+            "title": "Npm commands (Scripts)",
+            "description": "dev build styles:compile styles:minify scripts:compile\n            scripts:minify icon-font vendor validate watch dist",
+            "updated_at": "2024-09-10 16:49:50"
+        },
+        {
+            "title": "File structure",
+            "description": "project folders",
+            "href": "\/docs\/structure"
+        },
+        {
+            "title": "Configuration files",
+            "description": "package.json config.js babelrc browserslistrc editorconfig\n                                    eslintrc gitignore htmlvalidate prettierignore prettierrc stylelintrc webmanifest\n                                    manifest.json",
+            "href": "\/docs\/configuration"
+        },
+        {
+            "title": "Progressive Web App (PWA)",
+            "description": "service worker manifest",
+            "href": "\/docs\/pwa"
+        },
+        {
+            "title": "Web font(s)",
+            "href": "\/docs\/web-font"
+        },
+        {
+            "title": "Icon font",
+            "href": "\/docs\/icon-font"
+        },
+        {
+            "title": "Performance: CLS &amp; Preload",
+            "description": "cumulative layout shift loading aspect-ratio",
+            "href": "\/docs\/performance"
+        },
+        {
+            "title": "Browser support",
+            "description": "autoprefixer",
+            "href": "\/docs\/browser-support"
+        },
+        {
+            "title": "Right-to-Left (RTL)",
+            "href": "\/docs"
+        },
+        {
+            "title": "Deployment guide",
+            "href": "\/docs\/deployment",
+            "description": "launch hosting publishing rollout go-live"
+        },
+        {
+            "title": "Sources and credits",
+            "href": "\/docs\/credits",
+            "description": "resources plugins libraries frameworks assets"
+        },
+        {
+            "title": "Changelog",
+            "href": "\/docs\/changelog",
+            "description": "updates"
+        },
+        {
+            "title": "Customize",
+            "header": true
+        },
+        {
+            "title": "multi1",
+            "items": [
+                {
+                    "title": "sub1",
+                    "items": [
+                        {
+                            "title": "aaa"
+                        },
+                        {
+                            "title": "bbb"
+                        }
+                    ]
+                },
+                {
+                    "title": "sub2"
+                }
+            ]
+        }
+    ]
+}

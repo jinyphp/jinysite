@@ -14,8 +14,9 @@
 
 
         {{-- <link rel="stylesheet" href="https://jinyphp.github.io/css/assets/css/app.css"> --}}
-        @vite('resources/css/app.scss')
-        @vite('resources/css/tailwind.scss')
+        <link rel="stylesheet" href="/assets/sidebar.css?theme=admin.sidebar">
+        {{-- @vite('resources/css/app.scss')
+        @vite('resources/css/tailwind.scss') --}}
 
         @stack('css')
 
@@ -40,14 +41,32 @@
         {{$slot}}
 
         <script src="https://jinyphp.github.io/css/assets/js/app.js" defer></script>
-        @stack('scripts')
 
         <!-- Include the Quill library -->
         {{-- <script src="https://cdn.jsdelivr.net/npm/quill@2.0.0-rc.2/dist/quill.js"></script> --}}
         <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
+        <x-set-actions></x-set-actions>
+        <x-site-setting></x-site-setting>
 
+        @stack('scripts')
 
+        {{-- HotKey 단축키 이벤트 --}}
+        @livewire('HotKeyEvent')
+
+        <script>
+            document.addEventListener('livewire:init', () => {
+                Livewire.on('page-realod', (event) => {
+                    console.log("page-realod");
+                    location.reload();
+                });
+
+                Livewire.on('history-back', (event) => {
+                    console.log("history-back");
+                    history.back();
+                });
+            });
+        </script>
 
     </body>
 </html>

@@ -12,8 +12,8 @@ return [
 	],
     'slot4_geeks'=>[
 		'active'=>"0",
-		'name'=>"slot4_geeks",
-		'description'=>"slot4_geeks"
+		'name'=>"geeks",
+		'description'=>"geeks"
 	],
     'slot5_space'=>[
 		'active'=>"0",

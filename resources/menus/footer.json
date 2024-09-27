@@ -1,0 +1,77 @@
+{
+    "items": [
+        {
+            "title": "Categories1",
+            "items": [
+                {
+                    "title": "JinyUI"
+                },
+                {
+                    "title": "JinySite"
+                },
+                {
+                    "title": "JinyTMS"
+                },
+                {
+                    "title": "JinyShop"
+                },
+                {
+                    "title": "JinyERP"
+                }
+            ],
+            "updated_at": "2024-09-19 08:47:20"
+        },
+        {
+            "title": "Account",
+            "items": [
+                {
+                    "title": "Your account2",
+                    "updated_at": "2024-09-19 08:47:27"
+                },
+                {
+                    "title": "Shipping & policies"
+                },
+                {
+                    "title": "Refunds & replacements"
+                },
+                {
+                    "title": "Order tracking"
+                },
+                {
+                    "title": "Delivery info"
+                },
+                {
+                    "title": "Taxes & fees"
+                }
+            ]
+        },
+        {
+            "title": "Company",
+            "items": [
+                {
+                    "title": "About_v1",
+                    "href": "\/about\/v1",
+                    "updated_at": "2024-09-19 08:50:57"
+                },
+                {
+                    "title": "About-v2",
+                    "href": "\/about\/v2",
+                    "updated_at": "2024-09-19 08:51:33"
+                },
+                {
+                    "title": "Refunds & replacements"
+                },
+                {
+                    "title": "Product returns"
+                },
+                {
+                    "title": "Support center"
+                },
+                {
+                    "title": "Shipping"
+                }
+            ],
+            "updated_at": "2024-09-19 08:50:19"
+        }
+    ]
+}

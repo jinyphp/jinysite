@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "href": "\/orders\/payment",
+            "title": "Payment Methods",
+            "icon": "<i class=\"ci-credit-card fs-base opacity-75 me-2\"><\/i>",
+            "updated_at": "2024-09-17 18:11:50"
+        },
+        {
+            "title": "Orders",
+            "href": "\/orders",
+            "icon": "<i class=\"ci-shopping-bag fs-base opacity-75 me-2\"><\/i>"
+        },
+        {
+            "title": "Wishlist",
+            "href": "\/orders\/wish",
+            "icon": "<i class=\"ci-heart fs-base opacity-75 me-2\"><\/i>"
+        },
+        {
+            "title": "My Reviews",
+            "icon": "<i class=\"ci-star fs-base opacity-75 me-2\"><\/i>",
+            "href": "\/orders\/reviews"
+        }
+    ]
+}

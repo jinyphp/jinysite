@@ -1,5 +1,9 @@
-<main class="content">
-    <div class="content-body">
+<div class="main">
+    <x-theme-header></x-theme-header>
+
+    <main class="content">
         {{$slot}}
-    </div>
-</main>
+    </main>
+
+    <x-theme-footer></x-theme-footer>
+</div>

@@ -1,11 +1,15 @@
-<x-www-layout>
+<x-www-app>
+    <x-www-layout>
 
-  @partials("help5")
+        @partials("help5")
 
-  @partials("help6")
+        @partials("help6")
 
-  @partials("help7")
+        @partials("help7")
 
-  @partials("help8")
+        @partials("help8")
 
-</x-www-layout>
+      </x-www-layout>
+</x-www-app>
+
+

@@ -1,4 +1,6 @@
-<x-www_docs>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
 
   <!-- Page title -->
   <section class="py-2 pb-3 pb-lg-4">
@@ -66,4 +68,6 @@
       video is reserved, regardless of whether the media has finished loading. This method significantly reduces CLS by
       stabilizing the layout as the rest of the page continues to load.</p>
   </section>
-</x-www_docs>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

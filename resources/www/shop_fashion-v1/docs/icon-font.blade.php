@@ -1,4 +1,6 @@
-<x-www_docs>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
 
   <!-- Page title -->
   <section class="py-2 pb-3 pb-lg-4">
@@ -105,4 +107,6 @@
         your web application has a tailored and optimized set of icons at your disposal.</p>
     </section>
   </section>
-</x-www_docs>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

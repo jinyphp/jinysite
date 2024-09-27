@@ -1,6 +1,9 @@
 {
     "view": {
-        "layout": "account-home"
+        "layout": "home.account"
     },
-    "updated_at": "2024-08-07 08:56:12"
+    "updated_at": "2024-09-17 11:32:29",
+    "layouts": {
+        "main": "main"
+    }
 }

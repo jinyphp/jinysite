@@ -1,1 +1,1 @@
-admin.sidebar
+site.geeks

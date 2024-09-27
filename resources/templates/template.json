@@ -1,0 +1,12 @@
+{
+    "items": {
+        "4": {
+            "title": "WidgetTitle",
+            "code": "WidgetTitle"
+        },
+        "5": {
+            "title": "WidgetHero",
+            "code": "WidgetHero"
+        }
+    }
+}

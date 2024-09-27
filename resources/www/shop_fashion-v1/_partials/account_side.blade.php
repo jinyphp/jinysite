@@ -1,5 +1,5 @@
 
-  <div class="offcanvas-lg offcanvas-start pe-lg-0 pe-xl-4" id="accountSidebar">
+<div class="offcanvas-lg offcanvas-start pe-lg-0 pe-xl-4" id="accountSidebar">
 
     <!-- Header -->
     <div class="offcanvas-header d-lg-block py-3 p-lg-0">

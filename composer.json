@@ -6,15 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "jiny/laravel": "^0.7",
+        "jiny/shop": "^0.4",
+        "jiny/site": "^0.12",
+        "jiny/site-page": "^0.3.0",
         "laravel/framework": "^11.9",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
-        "livewire/livewire": "^3.5",
-
-        "jiny/laravel": "^0.7",
-        "jiny/site": "^0.12",
-        "jiny/shop": "^0.4"
-
+        "livewire/livewire": "^3.5"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

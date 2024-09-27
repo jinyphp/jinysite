@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light" data-pwa="true">
+<html lang="ko">
 
     <head>
-		    <meta charset="utf-8">
+        <meta charset="utf-8">
 
-		    <!-- Viewport -->
-		    <meta name="viewport"
-			      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+        <!-- Viewport -->
+        <meta name="viewport"
+                content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
 
         <!-- SEO Meta Tags -->
         <title>Cartzilla | Fashion Store v.1</title>
-        <meta name="description" content="Cartzilla - Multipurpose Bootstrap E-Commerce HTML Template">
+        {{-- <meta name="description" content="Cartzilla - Multipurpose Bootstrap E-Commerce HTML Template">
         <meta name="keywords"
         content="bootstrap, online shop, e-commerce, market, multipurpose, product landing, ui kit, light and dark mode, html5, css3, javascript, gallery, slider, touch, creative">
-        <meta name="author" content="Createx Studio">
+        <meta name="author" content="Createx Studio"> --}}
 
         <!-- Webmanifest + Favicon / App icons -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
+        {{-- <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <link rel="manifest" href="/manifest.json">
         <link rel="icon" type="image/png" href="/assets/app-icons/icon-32x32.png" sizes="32x32">
-        <link rel="apple-touch-icon" href="/assets/app-icons/icon-180x180.png">
+        <link rel="apple-touch-icon" href="/assets/app-icons/icon-180x180.png"> --}}
 
         <!-- Theme switcher (color modes) -->
         <script src="/assets/js/theme-switcher.js"></script>
@@ -64,6 +64,8 @@
         <x-site-setting></x-site-setting>
 
 
+
+
         {{-- 자바스크립트 코드 부분, 계속 추가해야 --}}
         <!-- Vendor scripts - home-fashion-v1 -->
         <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -76,11 +78,28 @@
         <!-- Bootstrap + Theme scripts -->
         <script src="/assets/js/theme.min.js"></script>
 
-		{{-- HotKey 단축키 이벤트 --}}
+        {{-- HotKey 단축키 이벤트 --}}
 		@livewire('HotKeyEvent')
+
+
 
 		{{-- blade내의 script 처리 --}}
 		@stack('script')
+
+        <script>
+            document.addEventListener('livewire:init', () => {
+                Livewire.on('page-realod', (event) => {
+                    console.log("page-realod");
+                    location.reload();
+                });
+
+                Livewire.on('history-back', (event) => {
+                    console.log("history-back");
+                    history.back();
+                });
+            });
+        </script>
+
     </body>
 
 </html>

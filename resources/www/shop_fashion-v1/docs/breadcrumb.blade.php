@@ -1,4 +1,6 @@
-<x-www_docs>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
     <!-- Page title -->
     <section class="pt-2 pb-lg-1">
         <a class="badge d-inline-flex align-items-center text-info bg-info-subtle fw-semibold text-decoration-none py-2 px-3 mb-2 rounded-pill"
@@ -113,4 +115,6 @@ Home
             </div>
         </div>
     </section>
-</x-www_docs>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

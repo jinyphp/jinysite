@@ -1,4 +1,11 @@
 <x-theme name="admin.hyper">
+    <x-theme-layout>
+        <x-theme-main>
+        </x-theme-main>
+    </x-theme-layout>
+</x-theme>
+
+<x-theme name="admin.hyper">
     <!-- SimpleMDE css -->
     <link href="assets/vendor/simplemde/simplemde.min.css" rel="stylesheet" type="text/css" />
 

@@ -1,0 +1,378 @@
+{
+    "items": [
+        {
+            "title": "Getting start",
+            "header": true,
+            "updated_at": "2024-09-11 07:41:24",
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-code\" viewBox=\"0 0 16 16\">   <path d=\"M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8z\"\/> <\/svg>"
+        },
+        {
+            "title": "installation",
+            "items": [
+                {
+                    "title": "Prerequisites"
+                },
+                {
+                    "title": "Dev environment"
+                },
+                {
+                    "title": "Text editor or CLI"
+                },
+                {
+                    "title": "Installing Node.js, npm and dependencies"
+                }
+            ]
+        },
+        {
+            "title": "Npm commands (Scripts)",
+            "description": "dev build styles:compile styles:minify scripts:compile\n            scripts:minify icon-font vendor validate watch dist",
+            "updated_at": "2024-09-10 16:49:50"
+        },
+        {
+            "title": "File structure",
+            "description": "project folders",
+            "href": "\/docs\/structure"
+        },
+        {
+            "title": "Configuration files",
+            "description": "package.json config.js babelrc browserslistrc editorconfig\n                                    eslintrc gitignore htmlvalidate prettierignore prettierrc stylelintrc webmanifest\n                                    manifest.json",
+            "href": "\/docs\/configuration"
+        },
+        {
+            "title": "Progressive Web App (PWA)",
+            "description": "service worker manifest",
+            "href": "\/docs\/pwa"
+        },
+        {
+            "title": "Web font(s)",
+            "href": "\/docs\/web-font"
+        },
+        {
+            "title": "Icon font",
+            "href": "\/docs\/icon-font"
+        },
+        {
+            "title": "Performance: CLS &amp; Preload",
+            "description": "cumulative layout shift loading aspect-ratio",
+            "href": "\/docs\/performance"
+        },
+        {
+            "title": "Browser support",
+            "description": "autoprefixer",
+            "href": "\/docs\/browser-support"
+        },
+        {
+            "title": "Right-to-Left (RTL)",
+            "href": "\/docs"
+        },
+        {
+            "title": "Deployment guide",
+            "href": "\/docs\/deployment",
+            "description": "launch hosting publishing rollout go-live"
+        },
+        {
+            "title": "Sources and credits",
+            "href": "\/docs\/credits",
+            "description": "resources plugins libraries frameworks assets"
+        },
+        {
+            "title": "Changelog",
+            "href": "\/docs\/changelog",
+            "description": "updates"
+        },
+        {
+            "title": "Customize",
+            "header": true
+        },
+        {
+            "title": "multi1",
+            "items": [
+                {
+                    "title": "sub1",
+                    "items": [
+                        {
+                            "title": "aaa"
+                        },
+                        {
+                            "title": "bbb"
+                        }
+                    ]
+                },
+                {
+                    "title": "sub2"
+                },
+                {
+                    "title": "aaa",
+                    "updated_at": "2024-09-14 08:53:37",
+                    "href": "abcd"
+                }
+            ]
+        },
+        {
+            "title": "Global options",
+            "href": "\/docs\/options"
+        },
+        {
+            "title": "Colors",
+            "href": "\/docs\/colors"
+        },
+        {
+            "title": "Color modes (Light\/Dark)",
+            "href": "\/docs\/color-modes"
+        },
+        {
+            "title": "CSS variables",
+            "href": "\/docs\/css-variables"
+        },
+        {
+            "title": "Content",
+            "icon": "<i class=\"ci-file-text fs-lg text-secondary me-2\"><\/i>",
+            "enable": true,
+            "header": true
+        },
+        {
+            "title": "Typography",
+            "href": "\/docs\/typography",
+            "description": "text font heading title paragraph list ordered unordered\n                description blockquote quotation abbreviation"
+        },
+        {
+            "title": "Icons",
+            "href": "\/docs\/icons"
+        },
+        {
+            "title": "Code",
+            "href": "\/docs\/code",
+            "description": "pre kbd highlight"
+        },
+        {
+            "title": "Images figures",
+            "href": "\/docs\/images",
+            "description": "thumbnails picture"
+        },
+        {
+            "title": "Tables",
+            "href": "\/docs\/tables"
+        },
+        {
+            "title": "Components",
+            "icon": "<i class=\"ci-layers fs-lg text-info me-2\"><\/i>",
+            "header": true
+        },
+        {
+            "title": "Accordion",
+            "description": "collapse",
+            "href": "\/docs\/accordion"
+        },
+        {
+            "title": "Alerts",
+            "description": "notification callout",
+            "href": "\/docs\/alerts"
+        },
+        {
+            "title": "Badges",
+            "href": "\/docs\/badges",
+            "description": "count indicator"
+        },
+        {
+            "title": "Blog components",
+            "href": "\/docs\/blog-components",
+            "description": "post article"
+        },
+        {
+            "title": "Breadcrumb",
+            "href": "\/docs\/breadcrumb",
+            "description": "navigation links"
+        },
+        {
+            "title": "Buttons",
+            "description": "navigation links",
+            "href": "\/docs\/buttons"
+        },
+        {
+            "title": "Button group",
+            "description": "navigation link",
+            "href": "\/docs\/button-group"
+        },
+        {
+            "title": "Card",
+            "href": "\/docs\/card",
+            "description": "box container"
+        },
+        {
+            "title": "Carousel (Slider)",
+            "href": "\/docs\/carousel"
+        },
+        {
+            "href": "\/docs\/collapse",
+            "title": "Collapse"
+        },
+        {
+            "title": "Countdown",
+            "description": "timer",
+            "href": "\/docs\/countdown"
+        },
+        {
+            "title": "Dropdowns",
+            "href": "\/docs\/dropdowns",
+            "description": "navigation menu submenu overlay links dropend dropstart\n                dropup"
+        },
+        {
+            "title": "Forms",
+            "href": "\/docs\/forms",
+            "description": "input select textarea checkbox radio range slider picker\n                floating label validation control file switch quantity"
+        },
+        {
+            "href": "\/docs\/hotspots",
+            "title": "Hotspots",
+            "description": "overlay popover tooltip image picture"
+        },
+        {
+            "href": "\/docs\/image-comparison-slider",
+            "title": "Image comparison slider"
+        },
+        {
+            "title": "Image zoom",
+            "href": "\/docs\/image-zoom",
+            "description": "hover overlay popover picture"
+        },
+        {
+            "title": "Input group",
+            "href": "\/docs\/input-group",
+            "description": "form control select textarea addon"
+        },
+        {
+            "title": "Input text formatter",
+            "href": "\/docs\/input-formatter",
+            "description": "form control mask"
+        },
+        {
+            "title": "Lightbox (Gallery)",
+            "href": "\/docs\/lightbox",
+            "description": "popup modal overlay image picture video youtube vimeo\n                iframe"
+        },
+        {
+            "href": "\/docs\/list-group",
+            "title": "List group",
+            "description": "navigation links menu ordered unordered"
+        },
+        {
+            "title": "Modal",
+            "href": "\/docs\/modal",
+            "description": "dialog popup overlay lightbox"
+        },
+        {
+            "title": "Nav links",
+            "href": "\/docs\/nav-links",
+            "description": "navigation menu links"
+        },
+        {
+            "title": "Navbar",
+            "href": "\/docs\/navbar",
+            "description": "header navigation menu submenu links brand logo"
+        },
+        {
+            "title": "Offcanvas",
+            "href": "\/docs\/offcanvas",
+            "description": "drawer overlay sidebar"
+        },
+        {
+            "title": "Pagination",
+            "href": "\/docs\/pagination",
+            "description": "pager navigation links"
+        },
+        {
+            "title": "Pills",
+            "href": "\/docs\/pills",
+            "description": "navigation links tabs"
+        },
+        {
+            "title": "Placeholders",
+            "href": "\/docs\/placeholders",
+            "description": "loading loader"
+        },
+        {
+            "title": "Popovers",
+            "href": "\/docs\/popovers",
+            "description": "tooltip overlay popup"
+        },
+        {
+            "title": "Product cards",
+            "href": "\/docs\/product-cards",
+            "description": "shop store sell item cart"
+        },
+        {
+            "title": "Progress",
+            "href": "\/docs\/progress",
+            "description": "bars status"
+        },
+        {
+            "title": "Reviews",
+            "href": "\/docs\/reviews",
+            "description": "testimonials feedback stars rating"
+        },
+        {
+            "title": "Scrollbar",
+            "href": "\/docs\/scrollbar"
+        },
+        {
+            "title": "Scrollspy",
+            "href": "\/docs\/scrollspy",
+            "description": "anchor links navigation menu"
+        },
+        {
+            "title": "Select box",
+            "href": "\/docs\/select-box",
+            "description": "tags choices input form multiple control"
+        },
+        {
+            "title": "Shop categories",
+            "href": "\/docs\/shop-categories",
+            "description": "store filter links navigation cards"
+        },
+        {
+            "title": "Shop filters",
+            "href": "\/docs\/shop-filters",
+            "description": "store sidebar widgets sort"
+        },
+        {
+            "title": "Spinners",
+            "description": "loading loader",
+            "href": "\/docs\/spinners"
+        },
+        {
+            "title": "Tabs",
+            "description": "navigation links underline",
+            "href": "\/docs\/tabs"
+        },
+        {
+            "title": "Toasts",
+            "href": "\/docs\/toasts",
+            "description": "notification overlay popup alert feedback"
+        },
+        {
+            "title": "Tooltips",
+            "href": "\/docs\/tooltips",
+            "description": "overlay popup popover"
+        },
+        {
+            "title": "Utilities &amp; helpers",
+            "icon": "<i class=\"ci-tool fs-lg text-warning me-2\"><\/i>",
+            "header": true
+        },
+        {
+            "title": "Cartzilla utilities",
+            "href": "\/docs\/utilities",
+            "description": "border background cursor"
+        },
+        {
+            "title": "Bootstrap utilities",
+            "description": "border background color text font size position weight\n                display opacity flex space spacing align visibility overflow object float\n                shadow",
+            "href": "https:\/\/getbootstrap.com\/docs\/5.3\/utilities\/background\/"
+        },
+        {
+            "title": "Bootstrap helpers",
+            "description": "position ratio stacks stretched link focus truncation\n                rule",
+            "href": "https:\/\/getbootstrap.com\/docs\/5.3\/helpers\/clearfix\/"
+        }
+    ]
+}

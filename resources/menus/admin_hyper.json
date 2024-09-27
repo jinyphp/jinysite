@@ -1,0 +1,692 @@
+{
+    "items": [
+        {
+            "title": "Navigation",
+            "header": true
+        },
+        {
+            "title": "Dashboards",
+            "items": [
+                {
+                    "title": "Analytics",
+                    "href": "\/dashboard-analytics"
+                },
+                {
+                    "title": "Ecommerce",
+                    "href": "\/index"
+                },
+                {
+                    "title": "Projects",
+                    "href": "\/dashboard-projects"
+                },
+                {
+                    "title": "CRM",
+                    "href": "\/dashboard-crm"
+                },
+                {
+                    "title": "E-Wallet",
+                    "href": "\/dashboard-wallet"
+                }
+            ]
+        },
+        {
+            "title": "Apps",
+            "header": true
+        },
+        {
+            "title": "Calendar",
+            "href": "\/apps-calendar",
+            "icon": "<i class=\"uil-calender\"><\/i>"
+        },
+        {
+            "title": "Chat",
+            "icon": "<i class=\"uil-comments-alt\"><\/i>",
+            "href": "\/apps-chat"
+        },
+        {
+            "title": "CRM",
+            "items": [
+                {
+                    "title": "Projects",
+                    "href": "\/crm-projects"
+                },
+                {
+                    "title": "Orders List",
+                    "href": "\/crm-orders-list"
+                },
+                {
+                    "title": "Clients",
+                    "href": "\/crm-clients"
+                },
+                {
+                    "title": "Management",
+                    "href": "\/crm-management"
+                }
+            ],
+            "icon": "<i class=\"uil uil-tachometer-fast\"><\/i>",
+            "updated_at": "2024-09-20 10:46:48"
+        },
+        {
+            "title": "Ecommerce",
+            "icon": "<i class=\"uil-store\"><\/i>",
+            "items": [
+                {
+                    "title": "Products",
+                    "href": "\/apps-ecommerce-products"
+                },
+                {
+                    "title": "Products Details",
+                    "href": "\/apps-ecommerce-products-details"
+                },
+                {
+                    "title": "Orders",
+                    "href": "\/apps-ecommerce-orders"
+                },
+                {
+                    "title": "Order Details",
+                    "href": "\/apps-ecommerce-orders-details"
+                },
+                {
+                    "title": "Customers",
+                    "href": "\/apps-ecommerce-customers"
+                },
+                {
+                    "title": "Shopping Cart",
+                    "href": "\/apps-ecommerce-shopping-cart"
+                },
+                {
+                    "title": "Checkout",
+                    "href": "\/apps-ecommerce-checkout",
+                    "items": [
+                        {
+                            "title": "Sellers",
+                            "href": "\/apps-ecommerce-sellers"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Email",
+            "icon": "<i class=\"uil-envelope\"><\/i>",
+            "items": [
+                {
+                    "title": "Inbox",
+                    "href": "\/apps-email-inbox"
+                },
+                {
+                    "title": "Read Email",
+                    "href": "\/apps-email-read"
+                }
+            ]
+        },
+        {
+            "title": "Projects",
+            "icon": "<i class=\"uil-briefcase\"><\/i>",
+            "items": [
+                {
+                    "title": "List",
+                    "href": "\/apps-projects-list"
+                },
+                {
+                    "title": "Details",
+                    "href": "\/apps-projects-details"
+                },
+                {
+                    "title": "Gantt",
+                    "href": "\/apps-projects-gantt"
+                },
+                {
+                    "title": "Create Project",
+                    "href": "\/apps-projects-add"
+                }
+            ]
+        },
+        {
+            "title": "Social Feed",
+            "icon": "<i class=\"uil-rss\"><\/i>",
+            "href": "\/apps-social-feed"
+        },
+        {
+            "title": "Tasks",
+            "icon": "<i class=\"uil-clipboard-alt\"><\/i>",
+            "items": [
+                {
+                    "title": "List",
+                    "href": "\/apps-tasks"
+                },
+                {
+                    "title": "Details",
+                    "href": "\/apps-tasks-details"
+                },
+                {
+                    "title": "Kanban Board",
+                    "href": "\/apps-kanban"
+                }
+            ]
+        },
+        {
+            "title": "File Manager",
+            "icon": "<i class=\"uil-folder-plus\"><\/i>",
+            "href": "\/apps-file-manager"
+        },
+        {
+            "title": "Custom",
+            "header": true
+        },
+        {
+            "title": "Pages",
+            "icon": "<i class=\"uil-copy-alt\"><\/i>",
+            "items": [
+                {
+                    "title": "Profile",
+                    "href": "\/pages-profile"
+                },
+                {
+                    "title": "Profile 2",
+                    "href": "\/pages-profile-2"
+                },
+                {
+                    "title": "Invoice",
+                    "href": "\/pages-invoice"
+                },
+                {
+                    "title": "FAQ",
+                    "href": "\/pages-faq"
+                },
+                {
+                    "title": "Pricing",
+                    "href": "\/pages-pricing"
+                },
+                {
+                    "title": "Maintenance",
+                    "href": "\/pages-maintenance"
+                },
+                {
+                    "title": "Authentication",
+                    "items": [
+                        {
+                            "title": "Login",
+                            "href": "\/pages-login"
+                        },
+                        {
+                            "title": "Login 2",
+                            "href": "\/pages-login-2"
+                        },
+                        {
+                            "title": "Register",
+                            "href": "\/pages-register"
+                        },
+                        {
+                            "title": "Register 2",
+                            "href": "\/pages-register-2"
+                        },
+                        {
+                            "title": "Logout",
+                            "href": "\/pages-logout"
+                        },
+                        {
+                            "title": "Logout 2",
+                            "href": "\/pages-logout-2"
+                        },
+                        {
+                            "title": "Recover Password",
+                            "href": "\/pages-recoverpw"
+                        },
+                        {
+                            "title": "Recover Password 2",
+                            "href": "\/pages-recoverpw-2"
+                        },
+                        {
+                            "title": "Lock Screen",
+                            "href": "\/pages-lock-screen"
+                        },
+                        {
+                            "title": "Lock Screen 2",
+                            "href": "\/pages-lock-screen-2"
+                        },
+                        {
+                            "title": "Confirm Mail",
+                            "href": "\/pages-confirm-mail"
+                        },
+                        {
+                            "title": "Confirm Mail 2",
+                            "href": "\/pages-confirm-mail-2"
+                        }
+                    ]
+                },
+                {
+                    "title": "Error",
+                    "items": [
+                        {
+                            "title": "Error 404",
+                            "href": "\/pages-404"
+                        },
+                        {
+                            "title": "Error 404-alt",
+                            "href": "\/pages-404-alt"
+                        },
+                        {
+                            "title": "Error 500",
+                            "href": "\/pages-500"
+                        }
+                    ]
+                },
+                {
+                    "title": "Starter Page",
+                    "href": "\/pages-starter"
+                },
+                {
+                    "title": "With Preloader",
+                    "href": "\/pages-preloader"
+                },
+                {
+                    "title": "Timeline",
+                    "href": "\/pages-timeline"
+                }
+            ]
+        },
+        {
+            "title": "Landing",
+            "icon": "<i class=\"uil-globe\"><\/i>",
+            "href": "\/landing"
+        },
+        {
+            "title": "Layouts",
+            "icon": "<i class=\"uil-window\"><\/i>",
+            "items": [
+                {
+                    "href": "\/layouts-horizontal",
+                    "title": "Horizontal"
+                },
+                {
+                    "title": "Detached",
+                    "href": "\/layouts-detached"
+                },
+                {
+                    "title": "Full View",
+                    "href": "\/layouts-full"
+                },
+                {
+                    "title": "Hover Menu",
+                    "href": "\/layouts-hover"
+                },
+                {
+                    "title": "Compact",
+                    "href": "\/layouts-compact"
+                },
+                {
+                    "title": "Icon View",
+                    "href": "\/layouts-icon-view"
+                }
+            ]
+        },
+        {
+            "title": "Components",
+            "header": true
+        },
+        {
+            "title": "Base UI",
+            "icon": "<i class=\"uil-box\"><\/i>",
+            "items": [
+                {
+                    "title": "Accordions & Collapse",
+                    "href": "\/ui-accordions"
+                },
+                {
+                    "title": "Alerts",
+                    "href": "\/ui-alerts"
+                },
+                {
+                    "title": "Avatars",
+                    "href": "\/ui-avatars"
+                },
+                {
+                    "title": "Badges",
+                    "href": "\/ui-badges"
+                },
+                {
+                    "title": "Breadcrumb",
+                    "href": "\/ui-breadcrumb"
+                },
+                {
+                    "title": "Buttons",
+                    "href": "\/ui-buttons"
+                },
+                {
+                    "title": "Cards",
+                    "href": "\/ui-cards"
+                },
+                {
+                    "title": "Carousel",
+                    "href": "\/ui-carousel"
+                },
+                {
+                    "title": "Dropdowns",
+                    "href": "\/ui-dropdowns"
+                },
+                {
+                    "title": "Embed Video",
+                    "href": "\/ui-embed-video"
+                },
+                {
+                    "title": "Grid",
+                    "href": "\/ui-grid"
+                },
+                {
+                    "title": "List Group",
+                    "href": "\/ui-list-group"
+                },
+                {
+                    "title": "Modals",
+                    "href": "\/ui-modals"
+                },
+                {
+                    "title": "Notifications",
+                    "href": "\/ui-notifications"
+                },
+                {
+                    "title": "Offcanvas",
+                    "href": "\/ui-offcanvas"
+                },
+                {
+                    "title": "Placeholders",
+                    "href": "\/ui-placeholders"
+                },
+                {
+                    "title": "Pagination",
+                    "href": "\/ui-pagination"
+                },
+                {
+                    "title": "Popovers",
+                    "href": "\/ui-popovers"
+                },
+                {
+                    "title": "Progress",
+                    "href": "\/ui-progress"
+                },
+                {
+                    "title": "Ribbons",
+                    "href": "\/ui-ribbons"
+                },
+                {
+                    "title": "Spinners",
+                    "href": "\/ui-spinners"
+                },
+                {
+                    "title": "Tabs",
+                    "href": "\/ui-tabs"
+                },
+                {
+                    "title": "Tooltips",
+                    "href": "\/ui-tooltips"
+                },
+                {
+                    "title": "Typography",
+                    "href": "\/ui-typography"
+                },
+                {
+                    "title": "Utilities",
+                    "href": "\/ui-utilities"
+                }
+            ]
+        },
+        {
+            "title": "Extended UI",
+            "icon": "<i class=\"uil-package\"><\/i>",
+            "items": [
+                {
+                    "title": "Dragula",
+                    "href": "\/extended-dragula"
+                },
+                {
+                    "title": "Range Slider",
+                    "href": "\/extended-range-slider"
+                },
+                {
+                    "title": "Ratings",
+                    "href": "\/extended-ratings"
+                },
+                {
+                    "href": "\/extended-scrollbar",
+                    "title": "Scrollbar",
+                    "updated_at": "2024-09-21 09:08:04"
+                },
+                {
+                    "title": "Scrollspy",
+                    "href": "\/extended-scrollspy"
+                },
+                {
+                    "title": "Treeview",
+                    "href": "\/extended-treeview"
+                }
+            ]
+        },
+        {
+            "title": "Widgets",
+            "icon": "<i class=\"uil-layer-group\"><\/i>",
+            "href": "\/widgets"
+        },
+        {
+            "title": "Icons",
+            "icon": "<i class=\"uil-streering\"><\/i>",
+            "items": [
+                {
+                    "title": "Remix Icons",
+                    "href": "\/icons-remixicons"
+                },
+                {
+                    "title": "Material Design",
+                    "href": "\/icons-mdi"
+                },
+                {
+                    "title": "Unicons",
+                    "href": "\/icons-unicons"
+                }
+            ]
+        },
+        {
+            "title": "Charts",
+            "icon": "<i class=\"uil-chart\"><\/i>",
+            "items": [
+                {
+                    "title": "Apex Charts",
+                    "items": [
+                        {
+                            "title": "Area",
+                            "href": "\/charts-apex-area"
+                        },
+                        {
+                            "title": "Bar",
+                            "href": "\/charts-apex-bar"
+                        },
+                        {
+                            "title": "Bubble",
+                            "href": "\/charts-apex-bubble"
+                        },
+                        {
+                            "title": "Candlestick",
+                            "href": "\/charts-apex-candlestick"
+                        },
+                        {
+                            "title": "Column",
+                            "href": "\/charts-apex-column"
+                        },
+                        {
+                            "title": "Heatmap",
+                            "href": "\/charts-apex-heatmap"
+                        },
+                        {
+                            "title": "Line",
+                            "href": "\/charts-apex-line"
+                        },
+                        {
+                            "title": "Mixed",
+                            "href": "\/charts-apex-mixed"
+                        },
+                        {
+                            "title": "Timeline",
+                            "href": "\/charts-apex-timeline"
+                        },
+                        {
+                            "title": "Boxplot",
+                            "href": "\/charts-apex-boxplot"
+                        },
+                        {
+                            "title": "Treemap",
+                            "href": "\/charts-apex-treemap"
+                        },
+                        {
+                            "title": "Pie",
+                            "href": "\/charts-apex-pie"
+                        },
+                        {
+                            "title": "Radar",
+                            "href": "\/charts-apex-radar"
+                        },
+                        {
+                            "title": "RadialBar",
+                            "href": "\/charts-apex-radialbar"
+                        },
+                        {
+                            "title": "Scatter",
+                            "href": "\/charts-apex-scatter"
+                        },
+                        {
+                            "title": "Polar Area",
+                            "href": "\/charts-apex-polar-area"
+                        },
+                        {
+                            "title": "Sparklines",
+                            "href": "\/charts-apex-sparklines"
+                        }
+                    ]
+                },
+                {
+                    "title": "ChartJS",
+                    "items": [
+                        {
+                            "href": "\/charts-chartjs-area",
+                            "title": "Area"
+                        },
+                        {
+                            "title": "Bar",
+                            "href": "\/charts-chartjs-bar"
+                        },
+                        {
+                            "title": "Line",
+                            "href": "\/charts-chartjs-line"
+                        },
+                        {
+                            "title": "Other",
+                            "href": "\/charts-chartjs-other"
+                        }
+                    ]
+                },
+                {
+                    "title": "Britecharts",
+                    "href": "\/charts-brite"
+                },
+                {
+                    "title": "Sparklines",
+                    "href": "\/charts-sparkline"
+                }
+            ]
+        },
+        {
+            "title": "Forms",
+            "icon": "<i class=\"uil-document-layout-center\"><\/i>",
+            "items": [
+                {
+                    "title": "Basic Elements",
+                    "href": "\/form-elements"
+                },
+                {
+                    "title": "Form Advanced",
+                    "href": "\/form-advanced"
+                },
+                {
+                    "title": "Validation",
+                    "href": "\/form-validation"
+                },
+                {
+                    "title": "Wizard",
+                    "href": "\/form-wizard",
+                    "updated_at": "2024-09-21 09:44:58"
+                },
+                {
+                    "title": "File Uploads",
+                    "href": "\/form-fileuploads"
+                },
+                {
+                    "title": "Editors",
+                    "href": "\/form-editors"
+                }
+            ]
+        },
+        {
+            "title": "Tables",
+            "icon": "<i class=\"uil-table\"><\/i>",
+            "items": [
+                {
+                    "title": "Basic Tables",
+                    "href": "\/tables-basic"
+                },
+                {
+                    "title": "Data Tables",
+                    "href": "\/tables-datatable"
+                }
+            ]
+        },
+        {
+            "title": "Maps",
+            "icon": "<i class=\"uil-location-point\"><\/i>",
+            "items": [
+                {
+                    "title": "Google Maps",
+                    "href": "\/maps-google"
+                },
+                {
+                    "title": "Vector Maps",
+                    "href": "\/maps-vector"
+                }
+            ]
+        },
+        {
+            "title": "Multi Level",
+            "icon": "<i class=\"uil-folder-plus\"><\/i>",
+            "items": [
+                {
+                    "title": "Second Level",
+                    "items": [
+                        {
+                            "title": "Item 1"
+                        },
+                        {
+                            "title": "Item 2"
+                        }
+                    ]
+                },
+                {
+                    "title": "Third Level",
+                    "items": [
+                        {
+                            "title": "Item 1"
+                        },
+                        {
+                            "title": "Item 2",
+                            "items": [
+                                {
+                                    "title": "Item 2.1"
+                                },
+                                {
+                                    "title": "Item 2.2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

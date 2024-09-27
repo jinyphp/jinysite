@@ -1,0 +1,9 @@
+{
+    "view": {
+        "layout": "login.layout"
+    },
+    "updated_at": "2024-09-16 15:50:48",
+    "layouts": {
+        "layout": "layout_center_middle"
+    }
+}

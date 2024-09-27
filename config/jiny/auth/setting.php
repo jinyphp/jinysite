@@ -9,7 +9,7 @@ return [
 	'register'=>"1",
 	'agreement'=>"1",
 	'view'=>[
-		'register'=>"jinyauth::register",
+		//'register'=>"jinyauth::register",
 		'agreement'=>"jinyauth::agreement",
 		'forget'=>"jinyauth::password.forget"
 	],
