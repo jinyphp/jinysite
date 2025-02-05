@@ -1,0 +1,18 @@
+{
+
+    "view": {
+        "list": "jiny-widgets::hero.hero1.list",
+        "form": "jiny-widgets::hero.hero1.form"
+    },
+    "items": [
+        {
+            "image": "\/about\/hero_text1snBJbJpB0YbfnSU4bv1WpiXnTMFkHjiD8cEwMQjB.jpg",
+            "created_at": "2024-10-29 09:58:38",
+            "updated_at": "2024-10-29 09:58:38"
+        }
+    ],
+    "title": "지니PHP",
+    "subtitle": "ㄻㅇㄴㄻㄴㅇㄻㄴㅇㄹ",
+    "name": null,
+    "image": []
+}

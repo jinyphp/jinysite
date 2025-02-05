@@ -1,70 +1,66 @@
-<x-www-layout>
-
-    <section class="py-5">
-        <div class="container px-5">
-            @livewire('WidgetHero-Heading', [
-                'filename' => "about_hero_text1"
-            ])
-
-        </div>
-    </section>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
 
 
-    <!-- Section Header-->
-    <section class="py-5">
-        <div class="container px-5">
-            @livewire('WidgetHero-Heading', [
-                'filename' => "about_hero_text1",
-                'widget' =>[
-                    'view' =>[
-                        'list' => "jiny-widgets::hero.text1.main"
-                    ]
-                ]
-            ])
 
-        </div>
-    </section>
+            <!-- Section Header-->
+            <section class="py-5">
+                <div class="container px-5">
+                    @livewire('WidgetHero-Heading', [
+                        'filename' => "about_hero_text1",
+                        'widget' =>[
+                            'view' =>[
+                                'list' => "jiny-widgets::hero.text1.main"
+                            ]
+                        ]
+                    ])
 
-    <!-- About section one-->
-    <section class="py-5 bg-light" id="scroll-target">
-        <div class="container px-5 my-5">
-            @livewire('WidgetCard-Left', [
-                'filename' => "about_card_left"
-            ])
-        </div>
-    </section>
+                </div>
+            </section>
 
-    <!-- About section two-->
-    <section class="py-5">
-        <div class="container px-5 my-5">
+            <!-- About section one-->
+            <section class="py-5 bg-light" id="scroll-target">
+                <div class="container px-5 my-5">
+                    @livewire('WidgetCard-Left', [
+                        'filename' => "about_card_left"
+                    ])
+                </div>
+            </section>
 
-            @livewire('WidgetCard-Right', [
-                'filename' => "about_card_right"
-            ])
+            <!-- About section two-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
 
-        </div>
-    </section>
+                    @livewire('WidgetCard-Right', [
+                        'filename' => "about_card_right"
+                    ])
 
-    <!-- Team members section-->
-    <section class="py-5 bg-light">
-        <div class="container px-5 my-5">
+                </div>
+            </section>
 
-            @livewire('WidgetGrid-Avatas', [
-                'filename' => "about_teams"
-            ])
+            <!-- Team members section-->
+            <section class="py-5 bg-light">
+                <div class="container px-5 my-5">
 
-        </div>
-    </section>
+                    @livewire('WidgetGrid-Avatas', [
+                        'filename' => "about_teams"
+                    ])
 
-    <section class="py-5 bg-light">
-        <div class="container px-5 my-5">
+                </div>
+            </section>
 
-            @livewire('WidgetList-Faq', [
-                'filename' => "about_faq"
-            ])
+            <section class="py-5 bg-light">
+                <div class="container px-5 my-5">
 
-        </div>
-    </section>
+                    @livewire('WidgetList-Faq', [
+                        'filename' => "about_faq"
+                    ])
 
-</x-www-layout>
+                </div>
+            </section>
 
+
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

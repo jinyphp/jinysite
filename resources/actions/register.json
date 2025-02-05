@@ -1,8 +1,8 @@
 {
     "view": {
-        "layout": "regist.layout"
+        "layout": ""
     },
-    "updated_at": "2024-09-16 15:57:37",
+    "updated_at": "2024-10-17 07:16:54",
     "layouts": {
         "layout": "layout_center_middle"
     }

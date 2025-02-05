@@ -7,9 +7,9 @@
         </span>
     </a>
 
-    {{-- @theme("header/search") --}}
+    @theme("_partials/header/search")
 
-
+    
     <ul class="navbar-nav d-none d-lg-flex">
         <li class="nav-item px-2 dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="megaDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

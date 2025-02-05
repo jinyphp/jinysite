@@ -1,0 +1,115 @@
+/* Icon classes */
+.icon-xxs,
+.icon-xs,
+.icon-sm,
+.icon-md,
+.icon-lg,
+.icon-xl,
+.icon-xxl {
+  /* 크기 관련 속성들 */
+}
+
+.icon-shape {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Text classes */
+.text-inherit {
+  color: var(--gk-gray-800);
+}
+
+.text-inverse {
+  filter: brightness(0) invert(1);
+}
+
+.text-inverse-dark {
+  filter: brightness(2) invert(1);
+}
+
+/* Cursor class */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Background classes */
+.bg-grayscale {
+  filter: grayscale(100%);
+}
+
+.bg-colors-gradient {
+  background: linear-gradient(280.04deg, #baa9fb 0%, #dbbeff 48.96%, #ffe0e0 100%);
+}
+
+/* Image overlay classes */
+.img-overlay {
+  position: relative;
+  transition: 0.5s ease;
+}
+
+.img-overlay .img-color {
+  /* 관련 스타일 */
+}
+
+.img-overlay .caption {
+  /* 관련 스타일 */
+}
+
+/* Hero graphics class */
+.hero-graphics {
+  background-image: url(../images/hero/hero-graphics.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/* Timeline classes */
+.list-timeline-activity {
+  position: relative;
+  z-index: 1;
+}
+
+/* Process line class */
+.process-line {
+  position: relative;
+  z-index: 1;
+}
+
+/* Small divider class */
+.small-divider {
+  height: 0.125rem;
+  width: 2.25rem;
+}
+
+/* Indicator classes */
+.indicator {
+  /* 관련 스타일 */
+}
+
+.indicator-primary {
+  /* 관련 스타일 */
+}
+
+/* Gallery classes */
+.gallery {
+  /* 관련 스타일 */
+}
+
+/* Chat classes */
+.chat-item,
+.chat-actions,
+.chat-layout,
+.chat-body,
+.chat-footer {
+  /* 관련 스타일 */
+}
+
+/* Kanban board classes */
+.task-kanban-container {
+  /* 관련 스타일 */
+}
+
+/* 기타 geeks.css에만 있는 유틸리티 클래스들 */

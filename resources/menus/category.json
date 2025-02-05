@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "title": "Woman",
+            "title": "Jiny",
             "items": [
                 {
                     "title": "Clothing",
@@ -43,10 +43,10 @@
                 }
             ],
             "blade": "category.woman",
-            "updated_at": "2024-08-15 16:30:37"
+            "updated_at": "2024-10-20 11:13:49"
         },
         {
-            "title": "Man",
+            "title": "Site Builder",
             "blade": "category.man",
             "items": [
                 {
@@ -61,10 +61,11 @@
                 {
                     "title": "Specialty Shops"
                 }
-            ]
+            ],
+            "updated_at": "2024-10-20 11:14:03"
         },
         {
-            "title": "Kid",
+            "title": "ERP Solutions",
             "blade": "category.kid",
             "items": [
                 {
@@ -79,7 +80,8 @@
                 {
                     "title": "Shop by Age"
                 }
-            ]
+            ],
+            "updated_at": "2024-10-20 11:14:41"
         }
     ]
 }

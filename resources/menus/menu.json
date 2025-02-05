@@ -6,8 +6,8 @@
                 {
                     "title": "JinyPHP",
                     "description": "laravel + jinyProject",
-                    "href": "\/jiny",
-                    "updated_at": "2024-09-05 08:45:30"
+                    "href": "\/project",
+                    "updated_at": "2024-10-20 10:49:15"
                 },
                 {
                     "title": "JinyUI",
@@ -17,7 +17,8 @@
                 {
                     "title": "JinySite",
                     "description": "Website Builder",
-                    "href": "\/jinysite"
+                    "href": "\/site",
+                    "updated_at": "2024-10-20 10:51:51"
                 },
                 {
                     "title": "JinyTMS",
@@ -66,68 +67,85 @@
             "title": "주요기능",
             "items": [
                 {
-                    "title": "Electronics Store",
+                    "title": "지니PHP",
                     "items": [
                         {
-                            "title": "Categories Page",
-                            "href": "\/shop-categories-electronics"
+                            "title": "회원인증",
+                            "href": "\/docs\/auth",
+                            "enable": true,
+                            "updated_at": "2025-02-03 09:50:41"
                         },
                         {
-                            "title": "Catalog with Side Filters",
-                            "href": "\/shop-catalog-electronics"
+                            "title": "테마관리",
+                            "href": "\/docs\/theme",
+                            "updated_at": "2025-02-03 10:00:09"
                         },
                         {
-                            "title": "Product General Info",
-                            "href": "\/shop-product-general-electronics"
+                            "title": "모듈",
+                            "href": "\/docs\/module",
+                            "updated_at": "2025-02-03 10:00:31"
                         },
                         {
-                            "title": "Product Details",
-                            "href": "\/shop-product-details-electronics"
+                            "title": "시작하기",
+                            "href": "\/docs\/start",
+                            "updated_at": "2025-02-03 10:01:43"
                         },
                         {
-                            "title": "Product Reviews",
-                            "href": "\/shop-product-reviews-electronics"
+                            "title": "UI",
+                            "href": "\/docs\/ui",
+                            "updated_at": "2025-02-03 10:06:32"
                         }
-                    ]
+                    ],
+                    "enable": true,
+                    "updated_at": "2025-02-03 09:50:11"
                 },
                 {
-                    "title": "Fashion Store",
+                    "title": "라라벨",
                     "items": [
                         {
-                            "title": "Catalog with Side Filters",
-                            "href": "\/shop-catalog-fashion"
+                            "title": "데이터베이스",
+                            "href": "\/docs\/database",
+                            "updated_at": "2025-02-03 10:06:59"
                         },
                         {
-                            "title": "Product Page",
-                            "href": "\/shop-product-fashion"
+                            "title": "지역설정",
+                            "href": "\/docs\/locale",
+                            "updated_at": "2025-02-03 10:07:23"
                         }
-                    ]
+                    ],
+                    "updated_at": "2025-02-03 09:59:39"
                 },
                 {
-                    "title": "Furniture Store",
+                    "title": "지니Site",
                     "items": [
                         {
-                            "title": "Catalog with Top Filters",
-                            "href": "\/shop-catalog-furniture"
+                            "title": "사이트빌더",
+                            "href": "\/docs\/site",
+                            "updated_at": "2025-02-03 10:09:22"
                         },
                         {
-                            "title": "Product Page",
-                            "href": "\/shop-product-furniture"
+                            "title": "계시판",
+                            "href": "\/docs\/board",
+                            "updated_at": "2025-02-03 10:09:47"
                         }
-                    ]
+                    ],
+                    "updated_at": "2025-02-03 10:07:44"
                 },
                 {
-                    "title": "Grocery Store",
+                    "title": "ERP",
                     "items": [
                         {
-                            "title": "Catalog with Side Filters",
-                            "href": "\/shop-catalog-grocery"
+                            "title": "인사관리",
+                            "href": "\/erp\/hr",
+                            "updated_at": "2025-02-03 10:08:22"
                         },
                         {
-                            "title": "Product Page",
-                            "href": "\/shop-product-grocery"
+                            "title": "전자승인",
+                            "href": "\/erp\/approval",
+                            "updated_at": "2025-02-03 10:08:47"
                         }
-                    ]
+                    ],
+                    "updated_at": "2025-02-03 10:08:04"
                 },
                 {
                     "title": "Checkout v.1",
@@ -182,54 +200,8 @@
             ]
         },
         {
-            "title": "응용개발",
-            "items": [
-                {
-                    "title": "Auth Pages",
-                    "items": [
-                        {
-                            "title": "Sign In",
-                            "href": "\/account-signin"
-                        },
-                        {
-                            "title": "Sign Up",
-                            "href": "\/account-signup"
-                        },
-                        {
-                            "title": "Password Recovery",
-                            "href": "\/account-password-recovery"
-                        }
-                    ]
-                },
-                {
-                    "title": "라라벨",
-                    "href": "https:\/\/laravel.com\/docs"
-                },
-                {
-                    "title": "페키지",
-                    "href": "\/jiny\/packages"
-                },
-                {
-                    "title": "Payment Methods",
-                    "href": "\/account-payment"
-                },
-                {
-                    "title": "My Reviews",
-                    "href": "\/account-reviews"
-                },
-                {
-                    "title": "Personal Info",
-                    "href": "\/account-info"
-                },
-                {
-                    "title": "Addresses",
-                    "href": "\/account-addresses"
-                },
-                {
-                    "title": "Notifications",
-                    "href": "\/account-notifications"
-                }
-            ]
+            "title": "데모",
+            "href": "\/demo"
         },
         {
             "title": "테마",
@@ -241,22 +213,15 @@
             "updated_at": "2024-09-20 09:06:17",
             "items": [
                 {
-                    "title": "설치",
-                    "updated_at": "2024-09-05 17:10:56",
-                    "href": "\/docs\/install"
+                    "title": "시작하기",
+                    "updated_at": "2024-10-20 11:04:41",
+                    "href": "\/docs\/start"
                 },
                 {
-                    "title": "UI",
-                    "items": [
-                        {
-                            "title": "Install",
-                            "href": "\/docs\/installation"
-                        },
-                        {
-                            "title": "Component",
-                            "href": "\/docs\/installation"
-                        }
-                    ]
+                    "title": "사이트빌더",
+                    "items": [],
+                    "href": "\/docs\/site",
+                    "updated_at": "2024-10-24 09:57:54"
                 }
             ]
         },
@@ -264,87 +229,31 @@
             "title": "Support",
             "items": [
                 {
-                    "title": "About",
-                    "items": [
-                        {
-                            "title": "About v.1",
-                            "href": "\/about-v1"
-                        },
-                        {
-                            "title": "About v.2",
-                            "href": "\/about-v2"
-                        }
-                    ]
+                    "title": "도움말",
+                    "href": "\/support\/help"
                 },
                 {
-                    "title": "Blog",
-                    "items": [
-                        {
-                            "title": "Grid View v.1",
-                            "href": "\/blog-grid-v1"
-                        },
-                        {
-                            "title": "Grid View v.2",
-                            "href": "\/blog-grid-v2"
-                        },
-                        {
-                            "title": "List View",
-                            "href": "\/blog-list"
-                        },
-                        {
-                            "title": "Single Post v.1",
-                            "href": "\/blog-single-v1"
-                        },
-                        {
-                            "title": "Single Post v.2",
-                            "href": "\/blog-single-v2"
-                        }
-                    ]
+                    "title": "FAQ",
+                    "href": "\/support\/faq"
                 },
                 {
-                    "title": "Contact",
-                    "items": [
-                        {
-                            "title": "Contact v.1",
-                            "href": "\/contact-v1"
-                        },
-                        {
-                            "title": "Contact v.2",
-                            "href": "\/contact-v2"
-                        },
-                        {
-                            "title": "Contact v.3",
-                            "href": "\/contact-v3"
-                        }
-                    ]
+                    "title": "문의하기",
+                    "href": "\/support\/contact"
                 },
                 {
-                    "title": "Help Center",
-                    "items": [
-                        {
-                            "title": "Help Topics v.1",
-                            "href": "\/help-topics-v1"
-                        },
-                        {
-                            "title": "Help Topics v.2",
-                            "href": "\/help-topics-v2"
-                        },
-                        {
-                            "title": "Help Single Article v.1",
-                            "href": "\/help-single-article-v1"
-                        },
-                        {
-                            "title": "Help Single Article v.2",
-                            "href": "\/help-single-article-v2"
-                        }
-                    ]
-                },
-                {
-                    "title": "Terms Conditions",
+                    "title": "이용약관",
                     "updated_at": "2024-09-05 17:10:56",
                     "href": "\/terms"
                 }
             ]
+        },
+        {
+            "title": "가격",
+            "href": "\/prices"
+        },
+        {
+            "title": "파트너",
+            "href": "\/partner"
         }
     ]
 }

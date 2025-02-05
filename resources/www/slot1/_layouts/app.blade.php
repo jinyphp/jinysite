@@ -35,18 +35,18 @@
             {{$slot}}
         </div>
 
-        <x-set-actions></x-set-actions>
-        <x-site-setting></x-site-setting>
-
-        {{-- HotKey 단축키 이벤트 --}}
-        @livewire('HotKeyEvent')
-
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <x-set-actions></x-set-actions>
+        <x-site-setting></x-site-setting>
 
         <!-- Core theme JS-->
         {{-- <script src="js/scripts.js"></script> --}}
         @stack('script')
+
+        {{-- HotKey 단축키 이벤트 --}}
+	    @livewire('HotKeyEvent')
 
     </body>
 </html>

@@ -1,0 +1,1 @@
+@partials('hero.split_hero_section3')

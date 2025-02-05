@@ -1,0 +1,14 @@
+{
+    "name": "hero1",
+    "view": {
+        "list": "jiny-widgets::hero.hero1.list",
+        "form": "jiny-widgets::hero.hero1.form"
+    },
+    "items": {
+        "1": {
+            "question": "지니Chat",
+            "created_at": "2024-11-25 14:38:13",
+            "updated_at": "2024-11-25 14:38:13"
+        }
+    }
+}

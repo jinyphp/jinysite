@@ -1,0 +1,10 @@
+{
+    "view": {
+        "list": "jiny-widgets::hero.main1.main"
+    },
+    "items": {
+        "title": "wegwerg",
+        "description": "twertwert",
+        "updated_at": "2024-09-30 07:12:11"
+    }
+}

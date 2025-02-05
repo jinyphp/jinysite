@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "title": "Categories1",
+            "title": "Solutions",
             "items": [
                 {
                     "title": "JinyUI"
@@ -19,56 +19,47 @@
                     "title": "JinyERP"
                 }
             ],
-            "updated_at": "2024-09-19 08:47:20"
+            "updated_at": "2024-10-24 09:55:10"
         },
         {
-            "title": "Account",
+            "title": "Features",
             "items": [
                 {
-                    "title": "Your account2",
-                    "updated_at": "2024-09-19 08:47:27"
+                    "title": "auth",
+                    "updated_at": "2024-10-24 09:55:47"
                 },
                 {
-                    "title": "Shipping & policies"
+                    "title": "static",
+                    "updated_at": "2024-10-24 09:55:56"
                 },
                 {
-                    "title": "Refunds & replacements"
+                    "title": "ui",
+                    "updated_at": "2024-10-24 09:56:04"
                 },
                 {
-                    "title": "Order tracking"
-                },
-                {
-                    "title": "Delivery info"
-                },
-                {
-                    "title": "Taxes & fees"
+                    "title": "theme",
+                    "updated_at": "2024-10-24 09:56:12"
                 }
-            ]
+            ],
+            "updated_at": "2024-10-24 09:55:30"
         },
         {
             "title": "Company",
             "items": [
                 {
-                    "title": "About_v1",
-                    "href": "\/about\/v1",
-                    "updated_at": "2024-09-19 08:50:57"
+                    "title": "About",
+                    "href": "\/about",
+                    "updated_at": "2024-10-24 09:53:47"
                 },
                 {
-                    "title": "About-v2",
-                    "href": "\/about\/v2",
-                    "updated_at": "2024-09-19 08:51:33"
+                    "title": "Support",
+                    "href": "\/support",
+                    "updated_at": "2024-10-24 09:54:18"
                 },
                 {
-                    "title": "Refunds & replacements"
-                },
-                {
-                    "title": "Product returns"
-                },
-                {
-                    "title": "Support center"
-                },
-                {
-                    "title": "Shipping"
+                    "title": "Partner",
+                    "href": "\/partner",
+                    "updated_at": "2024-10-24 09:54:37"
                 }
             ],
             "updated_at": "2024-09-19 08:50:19"

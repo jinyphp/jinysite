@@ -6,14 +6,23 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "jiny/laravel": "^0.7",
-        "jiny/shop": "^0.4",
-        "jiny/site": "^0.12",
-        "jiny/site-page": "^0.3.0",
+        "jenssegers/agent": "^2.6",
+        "jiny/auth-emoney": "^0.0.2",
+        "jiny/database": "^0.3.0",
+        "jiny/license": "^0.1.1",
+        "jiny/module-teams": "^0.2.2",
+        "jiny/seller": "^0.0.1",
+        "jiny/site": "^0.14",
+        "jiny/site-chat": "^0.5.1",
+        "jiny/site-partner": "^0.1.0",
+        "jiny/table": "^0.1.0",
         "laravel/framework": "^11.9",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
-        "livewire/livewire": "^3.5"
+        "nesbot/carbon": "^3.8",
+        "socialiteproviders/kakao": "^4.3",
+        "stichoza/google-translate-php": "^5.2",
+        "webuni/front-matter": "^2.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

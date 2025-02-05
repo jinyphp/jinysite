@@ -1,11 +1,23 @@
 {
+    "name": null,
     "items": {
         "1": {
-            "name": "이호진",
-            "position": "ㅇㄻㄴㅇㄹ",
-            "image": "upload\\about_teams\/JL3C3kpE6BodWpOwPjMN94wVHKrUdsKk7GBz2spc.jpg",
-            "created_at": "2024-06-24 08:55:02",
-            "updated_at": "2024-06-24 08:55:02"
+            "name": "fdasfasd",
+            "position": "fdasf",
+            "image": "\/about_teams\/TqYMQ4PbmPkGDhnkW95i7q7UzUndIzP618Wfvxf9.jpg",
+            "created_at": "2024-10-29 07:29:29",
+            "updated_at": "2024-10-30 06:26:03"
+        },
+        "2": {
+            "name": "fdasfasd",
+            "position": "fdasf",
+            "image": "\/about_teams\/vtwpAuEj7UD7Y77cvJFRrxTLgtm7EJmtvZy9YLz3.jpg",
+            "created_at": "2024-10-29 07:35:40",
+            "updated_at": "2024-10-30 06:26:11"
         }
+    },
+    "view": {
+        "list": "jiny-widgets::grids.teams3.list",
+        "form": "jiny-widgets::grids.teams3.form"
     }
 }

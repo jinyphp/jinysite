@@ -26,12 +26,13 @@
             }
         </style>
         <div style="height: 100vh;overflow-y: auto;" class="jiny-sidebar-scroll">
+
             @livewire('site-widget-menu',[
-            'code' => "admin_hyper",
-            'code_key' => "side",
-            'widget_path' => "side_menu",
-            'viewFile' => inThemePartial("menus.style1.layout")
-        ])
+                'code' => "admin_hyper",
+                'key' => "side",
+                'widget_path' => "side_menu",
+                'viewFile' => inThemePartial("menus.style1.layout")
+            ])
         </div>
 
 </nav>

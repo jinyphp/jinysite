@@ -13,11 +13,11 @@
         </title>
 
 
-        {{-- <link rel="stylesheet" href="https://jinyphp.github.io/css/assets/css/app.css"> --}}
-        <link rel="stylesheet" href="/assets/sidebar.css?theme=admin.sidebar">
-        {{-- @vite('resources/css/app.scss')
-        @vite('resources/css/tailwind.scss') --}}
 
+        {{-- <link rel="stylesheet" href="/assets/sidebar.css?theme=admin.sidebar"> --}}
+        @vite('resources/css/admin/app.scss')
+        @vite('resources/css/tailwind.scss')
+        @vite('resources/css/jiny.scss')
         @stack('css')
 
         {{-- <script src="//unpkg.com/alpinejs" defer></script> --}}

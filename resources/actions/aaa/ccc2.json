@@ -1,0 +1,34 @@
+{
+    "widgets": [
+        {
+            "filename": "/aaa/ccc/93dc30153e",
+            "element": "site-widget-html",
+            "name": "html",
+            "key": "93dc30153e",
+            "route": "/aaa/ccc",
+            "path": "93dc30153e.html",
+            "view": {
+                "list": "jiny-widgets::html.list",
+                "form": "jiny-widgets::html.form"
+            },
+            "pos": 1,
+            "ref": 0,
+            "level": 1
+        },
+        {
+            "filename": "/aaa/ccc/cbca78635b",
+            "element": "site-widget-markdown",
+            "name": "markdown",
+            "key": "cbca78635b",
+            "route": "/aaa/ccc",
+            "path": "cbca78635b.md",
+            "view": {
+                "list": "jiny-widgets::markdown.list",
+                "form": "jiny-widgets::markdown.form"
+            },
+            "pos": 0,
+            "ref": 0,
+            "level": 1
+        }
+    ]
+}

@@ -1,9 +1,14 @@
 {
     "view": {
-        "layout": "home.account"
+        "layout": "\/home\/index2"
     },
-    "updated_at": "2024-09-17 11:32:29",
+    "updated_at": "2024-12-24 09:12:05",
     "layouts": {
-        "main": "main"
+        "main": "main_account",
+        "layout": "layout",
+        "header": "header3"
+    },
+    "menu": {
+        "side": "11:site-account"
     }
 }

@@ -1,0 +1,33 @@
+{
+    "widgets": [
+        {
+            "filename": "/demo/page3/14597b6bac",
+            "element": "site-widget",
+            "name": "widget-teams3",
+            "key": "14597b6bac",
+            "route": "/demo/page3",
+            "view": {
+                "list": "jiny-widgets::grids.teams3.list",
+                "form": "jiny-widgets::grids.teams3.form"
+            },
+            "pos": 0,
+            "ref": 0,
+            "level": 1
+        },
+        {
+            "filename": "/demo/page3/0d3f5c92e2",
+            "element": "widget-html",
+            "name": "html",
+            "key": "0d3f5c92e2",
+            "route": "/demo/page3",
+            "path": "0d3f5c92e2.html",
+            "view": {
+                "list": "jiny-widgets::html.list",
+                "form": "jiny-widgets::html.form"
+            },
+            "pos": 1,
+            "ref": 0,
+            "level": 1
+        }
+    ]
+}

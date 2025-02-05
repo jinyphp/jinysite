@@ -1,0 +1,130 @@
+<x-www-app>
+    {{-- page-center --}}
+    <main class="row w-100 vh-100">
+        <div class="col-6">
+
+            <div class="row h-100">
+                <div class="col-sm-10 col-md-5 mx-auto d-table h-100">
+                    <div class="d-table-cell align-middle">
+
+                        <section>
+                            <header class="d-flex justify-content-between">
+                                <div>
+                                    <h1 class="h2 mt-auto">반갑습니다</h1>
+                                    <div class="nav fs-sm mb-4">
+                                        아직 회원이 아니신가요?
+                                        <a class="nav-link text-decoration-underline p-0 ms-2"
+                                            href="/regist">
+                                            회원가입
+                                        </a>
+                                    </div>
+                                </div>
+                                {{-- <div>
+                                    <a href="/" class="text-2xl text-decoration-none pt-0 text-dark fw-semibold">
+                                        {{ \Jiny\Site\Header('brand') }}
+                                    </a>
+                                </div> --}}
+                            </header>
+
+
+
+
+                            <!-- Session Status -->
+                            @if (session('status'))
+                                <div class="mb-4 font-medium text-sm text-green-600">
+                                    {{ session('status') }}
+                                </div>
+                            @endif
+
+                            @if (session('error'))
+                                <div class="alert alert-warning alert-dismissible" role="alert">
+                                    <div class="alert-message">
+                                        {{ session('error') }}
+                                    </div>
+                                </div>
+                            @endif
+
+                            <!-- Form -->
+                            <x-login-form>
+                                <div class="position-relative mb-4">
+                                    <x-login-email>
+                                    </x-login-email>
+                                </div>
+
+                                <div class="position-relative mb-4">
+                                    <x-login-password>
+                                    </x-login-password>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <div class="form-check me-2">
+
+                                        <x-login-remember>
+                                            30일 동안 기억하기
+                                        </x-login-remember>
+                                    </div>
+                                    <div class="nav">
+                                        <x-login-forgot class="nav-link animate-underline p-0">
+                                            <span class="animate-target">비밀번호를 잊으셨나요?</span>
+                                        </x-login-forgot>
+                                    </div>
+                                </div>
+
+                                <x-login-submit class="btn-lg w-100">
+                                    로그인
+                                </x-login-submit>
+
+                            </x-login-form>
+
+
+                            {{-- 소셜 로그인 --}}
+                            <!-- Divider -->
+                            {{-- <x-ui-divider>
+                                <span class="text-body-emphasis fw-medium text-nowrap mx-4">
+                                    또는 다음으로 로그인
+                                </span>
+                            </x-ui-divider> --}}
+
+                            {{-- <div class="d-flex flex-column flex-sm-row gap-3 pb-4 mb-3 mb-lg-4">
+                                <button type="button" class="btn btn-lg btn-outline-secondary w-100 px-2">
+                                    <i class="ci-google ms-1 me-1"></i>
+                                    Google
+                                </button>
+                                <button type="button" class="btn btn-lg btn-outline-secondary w-100 px-2">
+                                    <i class="ci-facebook ms-1 me-1"></i>
+                                    Facebook
+                                </button>
+                                <button type="button" class="btn btn-lg btn-outline-secondary w-100 px-2">
+                                    <i class="ci-apple ms-1 me-1"></i>
+                                    Apple
+                                </button>
+                            </div> --}}
+
+                            <!-- Footer -->
+                            <footer class="mt-4">
+                                <div class="nav mb-4">
+                                    <a class="nav-link text-decoration-underline p-0" href="/support/help">도움이
+                                        필요하신가요?</a>
+                                </div>
+                                <p class="fs-xs mb-0">
+                                    &copy; All rights reserved.
+                                    Made by <span class="animate-underline"><a
+                                            class="animate-target text-dark-emphasis text-decoration-none"
+                                            href="https://jinyphp.com/" target="_blank" rel="noreferrer">jinyphp</a>
+                                    </span>
+                                </p>
+                            </footer>
+                        </section>
+
+                        <!-- -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-6 p-0 h-100">
+            <img src="/images/login/cover2.jpg" class="w-100 h-100 object-fit-cover">
+        </div>
+    </main>
+
+</x-www-app>

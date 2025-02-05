@@ -1,11 +1,24 @@
 {
-    "widgets": [
-        {
+    "widgets": {
+        "1": {
+            "created_at": "2024-10-05 06:52:03",
+            "updated_at": "2024-10-05 06:52:03",
+            "enable": 1,
+            "key": "117338723806700e213c11f7989015581",
+            "route": "\/aaa\/bbb\/ccc\/ddd",
+            "path": "0.md",
+            "element": "widget-markdown",
+            "pos": 1,
+            "ref": 0,
+            "level": 1,
+            "title": "dfasdfasd"
+        },
+        "2": {
             "created_at": "2024-09-10 05:23:48",
             "updated_at": "2024-09-10 05:23:48",
             "enable": 1,
             "key": "1256652694widget-image66dfd7e48b6bf155807066",
-            "route": "/aaa/bbb/ccc/ddd",
+            "route": "\/aaa\/bbb\/ccc\/ddd",
             "path": [
                 "overview-img-8.jpg"
             ],
@@ -14,5 +27,21 @@
             "ref": 0,
             "level": 1
         }
-    ]
+    },
+    "title": "지니PHP 소개",
+    "subtitle": "fdsafasd",
+    "updated_at": "2024-10-05 15:14:55",
+    "layouts": {
+        "main": "main"
+    },
+    "role": true,
+    "roles": {
+        "관리자": {
+            "permit": true,
+            "create": true,
+            "read": true,
+            "update": true,
+            "delete": true
+        }
+    }
 }

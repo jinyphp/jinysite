@@ -1,14 +1,7 @@
-<x-www-app>
-    <x-www-header> {{-- fixed-top--}}
-        {{-- <x-www-brand>JinyPHP</x-www-brand> --}}
-    </x-www-header>
-    <main>
-        {{$slot}}
-    </main>
+<!-- Header -->
+<x-www-header></x-www-header>
 
+{{$slot}}
 
-    <!-- Footer-->
-    <x-www-footer>
-
-    </x-www-footer>
-</x-www-app>
+<!-- Footer -->
+<x-www-footer></x-www-footer>

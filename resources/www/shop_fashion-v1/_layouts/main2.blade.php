@@ -5,8 +5,6 @@
                 'code_key' => "side",
                 'widget_path' => "sidebar"
             ])
-
-
         </div>
         <div class="col-9">
             {{$slot}}

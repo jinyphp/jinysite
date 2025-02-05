@@ -1,0 +1,12 @@
+{
+    "layouts": {
+        "main": "main2"
+    },
+    "updated_at": "2024-10-23 07:49:29",
+    "menu": {
+        "side": "13:docs"
+    },
+    "title": "지니사이트::사이트 정보관리",
+    "description": "지니사이트 빌더에서 공용으로 사용되는 정보들을 관리할 수 있습니다.",
+    "keyword": "jinyphp"
+}

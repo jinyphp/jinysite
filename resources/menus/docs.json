@@ -1,0 +1,42 @@
+{
+    "items": [
+        {
+            "title": "Getting start",
+            "header": true,
+            "updated_at": "2024-09-11 07:41:24",
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-code\" viewBox=\"0 0 16 16\">   <path d=\"M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8z\"\/> <\/svg>"
+        },
+        {
+            "enable": true,
+            "title": "시작하기",
+            "href": "\/docs\/start"
+        },
+        {
+            "header": true,
+            "title": "사이트빌더"
+        },
+        {
+            "icon": "",
+            "title": "소개",
+            "href": "\/docs\/site"
+        },
+        {
+            "title": "정보관리",
+            "href": "\/docs\/site\/info"
+        },
+        {
+            "icon": "",
+            "title": "메뉴구성",
+            "href": "\/docs\/site\/menu"
+        },
+        {
+            "title": "정적페이지",
+            "items": [
+                {
+                    "title": "마크다운",
+                    "href": "\/docs\/site\/markdown"
+                }
+            ]
+        }
+    ]
+}

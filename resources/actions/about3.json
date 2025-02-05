@@ -1,0 +1,83 @@
+{
+    "widgets": [
+        {
+            "filename": "/about3/a220ead2ee",
+            "element": "widget2-html",
+            "name": "html",
+            "key": "a220ead2ee",
+            "route": "/about3",
+            "path": "a220ead2ee.html",
+            "pos": 1,
+            "ref": 0,
+            "level": 1
+        },
+        {
+            "filename": "/about3/fdde8b4e67",
+            "element": "widget2-markdown",
+            "name": "markdown",
+            "key": "fdde8b4e67",
+            "route": "/about3",
+            "path": "fdde8b4e67.md",
+            "pos": 0,
+            "ref": 0,
+            "level": 1
+        },
+        {
+            "filename": "/about3/c7ef14a9f4",
+            "element": "widget-blade",
+            "name": "blade",
+            "key": "c7ef14a9f4",
+            "route": "/about3",
+            "path": "c7ef14a9f4.blade.php",
+            "view": {
+                "list": "jiny-widgets::blade.list",
+                "form": "jiny-widgets::blade.form"
+            },
+            "pos": 2,
+            "ref": 0,
+            "level": 1
+        },
+        {
+            "filename": "/about3/31c88ceed2",
+            "element": "site-widget",
+            "name": "WidgetTitle",
+            "key": "31c88ceed2",
+            "route": "/about3",
+            "view": {
+                "list": "jiny-widgets::widget.list",
+                "form": "jiny-widgets::widget.form"
+            },
+            "pos": 3,
+            "ref": 0,
+            "level": 1
+        },
+        {
+            "filename": "/about3/e74b2a0bb0",
+            "element": "site-widget",
+            "name": "hero1",
+            "key": "e74b2a0bb0",
+            "route": "/about3",
+            "view": {
+                "list": "jiny-widgets::hero.hero1.list",
+                "form": "jiny-widgets::hero.hero1.form"
+            },
+            "pos": 5,
+            "ref": 0,
+            "level": 1
+        },
+        {
+            "filename": "/about3/31eb4e90a1",
+            "element": "site-widget",
+            "name": "widget-teams2",
+            "key": "31eb4e90a1",
+            "route": "/about3",
+            "view": {
+                "list": "jiny-widgets::grids.teams2.list",
+                "form": "jiny-widgets::grids.teams2.form"
+            },
+            "pos": 4,
+            "ref": 0,
+            "level": 1
+        }
+    ]
+}

@@ -22,6 +22,13 @@
 
     <link rel="stylesheet" href="/assets/libs/tiny-slider/dist/tiny-slider.css?slot=geeks" />
     <title>Homepage | Geeks - Bootstrap 5 Template</title>
+
+    {{-- sass 컴파일 with Vite --}}
+    @vite('resources/css/tailwind.scss')
+
+    {{-- blade내의 css 처리--}}
+    @stack('css')
+
   </head>
 
   <body class="bg-white">
@@ -35,6 +42,9 @@
                 d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z" />
         </svg>
     </div>
+
+    <x-set-actions></x-set-actions>
+    <x-site-setting></x-site-setting>
 
 
     <!-- Scripts -->
@@ -51,5 +61,26 @@
 
     <script src="/assets/libs/tiny-slider/dist/min/tiny-slider.js?slot=geeks"></script>
     <script src="/assets/js/vendors/tnsSlider.js?slot=geeks"></script>
+
+    {{-- blade내의 script 처리 --}}
+    @stack('script')
+
+    {{-- HotKey 단축키 이벤트 --}}
+    @livewire('HotKeyEvent')
+
+    <script>
+        document.addEventListener('livewire:init', () => {
+            Livewire.on('page-realod', (event) => {
+                console.log("page-realod");
+                location.reload();
+            });
+
+            Livewire.on('history-back', (event) => {
+                console.log("history-back");
+                history.back();
+            });
+        });
+    </script>
+
   </body>
 </html>

@@ -1,56 +1,13 @@
 {
-    "items": [
-        {
+    "items": {
+        "0": {
             "title": "Manage Account",
             "header": true
         },
-        {
-            "title": "회원정보",
-            "href": "\/home\/account",
-            "updated_at": "2024-09-17 16:37:55"
-        },
-        {
-            "title": "아바타설정",
-            "href": "\/home\/account\/avata",
-            "updated_at": "2024-09-17 16:38:07"
-        },
-        {
-            "title": "패스워드",
-            "href": "\/home\/account\/password",
-            "updated_at": "2024-09-17 17:00:29"
-        },
-        {
-            "title": "보완설정",
-            "href": "\/home\/account\/security",
-            "updated_at": "2024-09-17 17:09:28"
-        },
-        {
+        "5": {
             "title": "소셜미디어",
             "href": "\/home\/account\/social",
-            "items": [
-                {
-                    "title": "facebook"
-                }
-            ],
             "updated_at": "2024-09-17 17:01:05"
-        },
-        {
-            "title": "회원탈퇴",
-            "href": "\/home\/account\/logout",
-            "icon": "<i class=\"ci-log-out fs-base opacity-75 me-2\"><\/i>",
-            "updated_at": "2024-09-17 17:08:34"
-        },
-        {
-            "title": "주소관리",
-            "href": "\/home\/account\/addresses"
-        },
-        {
-            "title": "알람관리",
-            "href": "\/home\/notifications"
-        },
-        {
-            "title": "이용약관",
-            "href": "\/terms"
         }
-    ]
+    }
 }

@@ -1,9 +1,9 @@
-<x-theme-app name="site.geeks">
-    <x-theme-layout>
-        <x-theme-main>
+<x-www-app>
+    <x-www-layout>
+        <x-www-main>
 
             @includeIf(inSlot('home'))
 
-        </x-theme-main>
-    </x-theme-layout>
-</x-theme-app>
+        </x-www-main>
+    </x-www-layout>
+</x-www-app>

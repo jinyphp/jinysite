@@ -2,5 +2,31 @@
     "layouts": {
         "main": "main2"
     },
-    "updated_at": "2024-09-14 10:10:59"
+    "updated_at": "2024-09-14 10:10:59",
+    "widgets": [
+        {
+            "created_at": "2024-10-04 09:52:00",
+            "updated_at": "2024-10-04 09:52:00",
+            "enable": 1,
+            "key": "1894317305066ffbac045c61752477116",
+            "route": "/docs/installation",
+            "path": "note.blade.php",
+            "element": "widget-blade",
+            "pos": 1,
+            "ref": 0,
+            "level": 1
+        },
+        {
+            "created_at": "2024-10-04 09:41:57",
+            "updated_at": "2024-10-04 09:41:57",
+            "enable": 1,
+            "key": "1996182855066ffb8653e9fe438084544",
+            "route": "/docs/installation",
+            "path": "0.md",
+            "element": "widget-markdown",
+            "pos": 1,
+            "ref": 0,
+            "level": 1
+        }
+    ]
 }

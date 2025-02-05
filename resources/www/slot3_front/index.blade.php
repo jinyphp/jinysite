@@ -9,18 +9,18 @@
   <title>Front - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-  <link rel="stylesheet" href="./assets/vendor/aos/dist/aos.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/font/bootstrap-icons.css?slot=front">
+  <link rel="stylesheet" href="/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css?slot=front">
+  <link rel="stylesheet" href="/assets/vendor/aos/dist/aos.css?slot=front">
 
   <!-- CSS Front Template -->
-  <link rel="stylesheet" href="./assets/css/theme.min.css">
+  <link rel="stylesheet" href="/assets/css/theme.min.css?slot=front">
 </head>
 
 <body>
@@ -73,7 +73,7 @@
                   <!-- Promo Item -->
                   <div class="navbar-dropdown-menu-promo-item">
                     <!-- Promo Link -->
-                    <a class="navbar-dropdown-menu-promo-link active" href="./index.html">
+                    <a class="navbar-dropdown-menu-promo-link active" href="/index.html">
                       <div class="d-flex">
                         <div class="flex-shrink-0">
                           <span class="svg-icon svg-icon-sm text-primary">
@@ -98,7 +98,7 @@
                   <!-- Promo Item -->
                   <div class="navbar-dropdown-menu-promo-item">
                     <!-- Promo Link -->
-                    <a class="navbar-dropdown-menu-promo-link " href="./demo-real-estate/index.html">
+                    <a class="navbar-dropdown-menu-promo-link " href="/demo-real-estate/index.html">
                       <div class="d-flex">
                         <div class="flex-shrink-0">
                           <span class="svg-icon svg-icon-sm text-primary">
@@ -123,7 +123,7 @@
                   <!-- Promo Item -->
                   <div class="navbar-dropdown-menu-promo-item">
                     <!-- Promo Link -->
-                    <a class="navbar-dropdown-menu-promo-link " href="./demo-jobs/index.html">
+                    <a class="navbar-dropdown-menu-promo-link " href="/demo-jobs/index.html">
                       <div class="d-flex">
                         <div class="flex-shrink-0">
                           <span class="svg-icon svg-icon-sm text-primary">
@@ -152,7 +152,7 @@
                   <!-- Promo Item -->
                   <div class="navbar-dropdown-menu-promo-item">
                     <!-- Promo Link -->
-                    <a class="navbar-dropdown-menu-promo-link " href="./demo-course/index.html">
+                    <a class="navbar-dropdown-menu-promo-link " href="/demo-course/index.html">
                       <div class="d-flex">
                         <div class="flex-shrink-0">
                           <span class="svg-icon svg-icon-sm text-primary">
@@ -183,7 +183,7 @@
                   <!-- Promo Item -->
                   <div class="navbar-dropdown-menu-promo-item">
                     <!-- Promo Link -->
-                    <a class="navbar-dropdown-menu-promo-link " href="./demo-shop/index.html">
+                    <a class="navbar-dropdown-menu-promo-link " href="/demo-shop/index.html">
                       <div class="d-flex">
                         <div class="flex-shrink-0">
                           <span class="svg-icon svg-icon-sm text-primary">
@@ -208,7 +208,7 @@
                   <!-- Promo Item -->
                   <div class="navbar-dropdown-menu-promo-item">
                     <!-- Promo Link -->
-                    <a class="navbar-dropdown-menu-promo-link " href="./demo-app-marketplace/index.html">
+                    <a class="navbar-dropdown-menu-promo-link " href="/demo-app-marketplace/index.html">
                       <div class="d-flex">
                         <div class="flex-shrink-0">
                           <span class="svg-icon svg-icon-sm text-primary">
@@ -243,7 +243,7 @@
                   <!-- Promo Item -->
                   <div class="navbar-dropdown-menu-promo-item">
                     <!-- Promo Link -->
-                    <a class="navbar-dropdown-menu-promo-link " href="./demo-help-desk/index.html">
+                    <a class="navbar-dropdown-menu-promo-link " href="/demo-help-desk/index.html">
                       <div class="d-flex">
                         <div class="flex-shrink-0">
                           <span class="svg-icon svg-icon-sm text-primary">
@@ -317,7 +317,7 @@
               <!-- Mega Menu -->
               <div class="hs-mega-menu hs-position-right dropdown-menu" aria-labelledby="docsMegaMenu" style="min-width: 20rem;">
                 <!-- Link -->
-                <a class="navbar-dropdown-menu-media-link" href="./documentation/index.html">
+                <a class="navbar-dropdown-menu-media-link" href="/documentation/index.html">
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <span class="svg-icon svg-icon-sm text-primary">
@@ -340,7 +340,7 @@
                 <div class="dropdown-divider"></div>
 
                 <!-- Link -->
-                <a class="navbar-dropdown-menu-media-link" href="./snippets/index.html">
+                <a class="navbar-dropdown-menu-media-link" href="/snippets/index.html">
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <span class="svg-icon svg-icon-sm text-primary">
@@ -372,7 +372,7 @@
     <div class="container">
       <nav class="js-mega-menu navbar-nav-wrap">
         <!-- Default Logo -->
-        <a class="navbar-brand" href="./index.html" aria-label="Front">
+        <a class="navbar-brand" href="/index.html" aria-label="Front">
           <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo">
         </a>
         <!-- End Default Logo -->
@@ -419,31 +419,31 @@
                         <div class="row">
                           <div class="col-sm mb-3 mb-sm-0">
                             <span class="dropdown-header">Classic</span>
-                            <a class="dropdown-item " href="./landing-classic-corporate.html">Corporate</a>
-                            <a class="dropdown-item " href="./landing-classic-analytics.html">Analytics <span class="badge bg-primary rounded-pill ms-1">Hot</span></a>
-                            <a class="dropdown-item " href="./landing-classic-studio.html">Studio</a>
-                            <a class="dropdown-item " href="./landing-classic-marketing.html">Marketing</a>
-                            <a class="dropdown-item " href="./landing-classic-advertisement.html">Advertisement</a>
-                            <a class="dropdown-item " href="./landing-classic-consulting.html">Consulting</a>
-                            <a class="dropdown-item " href="./landing-classic-portfolio.html">Portfolio</a>
-                            <a class="dropdown-item " href="./landing-classic-software.html">Software</a>
-                            <a class="dropdown-item " href="./landing-classic-business.html">Business</a>
+                            <a class="dropdown-item " href="/landing-classic-corporate.html">Corporate</a>
+                            <a class="dropdown-item " href="/landing-classic-analytics.html">Analytics <span class="badge bg-primary rounded-pill ms-1">Hot</span></a>
+                            <a class="dropdown-item " href="/landing-classic-studio.html">Studio</a>
+                            <a class="dropdown-item " href="/landing-classic-marketing.html">Marketing</a>
+                            <a class="dropdown-item " href="/landing-classic-advertisement.html">Advertisement</a>
+                            <a class="dropdown-item " href="/landing-classic-consulting.html">Consulting</a>
+                            <a class="dropdown-item " href="/landing-classic-portfolio.html">Portfolio</a>
+                            <a class="dropdown-item " href="/landing-classic-software.html">Software</a>
+                            <a class="dropdown-item " href="/landing-classic-business.html">Business</a>
                           </div>
                           <!-- End Col -->
 
                           <div class="col-sm">
                             <div class="mb-3">
                               <span class="dropdown-header">App</span>
-                              <a class="dropdown-item " href="./landing-app-ui-kit.html">UI Kit</a>
-                              <a class="dropdown-item " href="./landing-app-saas.html">SaaS</a>
-                              <a class="dropdown-item " href="./landing-app-workflow.html">Workflow</a>
-                              <a class="dropdown-item " href="./landing-app-payment.html">Payment</a>
-                              <a class="dropdown-item " href="./landing-app-tool.html">Tool</a>
+                              <a class="dropdown-item " href="/landing-app-ui-kit.html">UI Kit</a>
+                              <a class="dropdown-item " href="/landing-app-saas.html">SaaS</a>
+                              <a class="dropdown-item " href="/landing-app-workflow.html">Workflow</a>
+                              <a class="dropdown-item " href="/landing-app-payment.html">Payment</a>
+                              <a class="dropdown-item " href="/landing-app-tool.html">Tool</a>
                             </div>
 
                             <span class="dropdown-header">Onepage</span>
-                            <a class="dropdown-item " href="./landing-onepage-corporate.html">Corporate</a>
-                            <a class="dropdown-item " href="./landing-onepage-saas.html">SaaS <span class="badge bg-primary rounded-pill ms-1">Hot</span></a>
+                            <a class="dropdown-item " href="/landing-onepage-corporate.html">Corporate</a>
+                            <a class="dropdown-item " href="/landing-onepage-saas.html">SaaS <span class="badge bg-primary rounded-pill ms-1">Hot</span></a>
                           </div>
                           <!-- End Col -->
                         </div>
@@ -464,16 +464,16 @@
 
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu" style="min-width: 14rem;">
-                  <a class="dropdown-item " href="./page-about.html">About</a>
-                  <a class="dropdown-item " href="./page-services.html">Services</a>
-                  <a class="dropdown-item " href="./page-customer-stories.html">Customer Stories</a>
-                  <a class="dropdown-item " href="./page-customer-story.html">Customer Story</a>
-                  <a class="dropdown-item " href="./page-careers.html">Careers</a>
-                  <a class="dropdown-item " href="./page-careers-overview.html">Careers Overview</a>
-                  <a class="dropdown-item " href="./page-hire-us.html">Hire Us</a>
-                  <a class="dropdown-item " href="./page-pricing.html">Pricing</a>
-                  <a class="dropdown-item " href="./page-contacts-agency.html">Contacts: Agency</a>
-                  <a class="dropdown-item " href="./page-contacts-startup.html">Contacts: Startup</a>
+                  <a class="dropdown-item " href="/page-about.html">About</a>
+                  <a class="dropdown-item " href="/page-services.html">Services</a>
+                  <a class="dropdown-item " href="/page-customer-stories.html">Customer Stories</a>
+                  <a class="dropdown-item " href="/page-customer-story.html">Customer Story</a>
+                  <a class="dropdown-item " href="/page-careers.html">Careers</a>
+                  <a class="dropdown-item " href="/page-careers-overview.html">Careers Overview</a>
+                  <a class="dropdown-item " href="/page-hire-us.html">Hire Us</a>
+                  <a class="dropdown-item " href="/page-pricing.html">Pricing</a>
+                  <a class="dropdown-item " href="/page-contacts-agency.html">Contacts: Agency</a>
+                  <a class="dropdown-item " href="/page-contacts-startup.html">Contacts: Startup</a>
                 </div>
                 <!-- End Mega Menu -->
               </li>
@@ -492,26 +492,26 @@
                     <div class="hs-sub-menu dropdown-menu" aria-labelledby="authenticationMegaMenu" style="min-width: 14rem;">
                       <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Signup Modal</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item " href="./page-login.html">Login</a>
-                      <a class="dropdown-item " href="./page-signup.html">Signup</a>
-                      <a class="dropdown-item " href="./page-reset-password.html">Reset Password</a>
+                      <a class="dropdown-item " href="/page-login.html">Login</a>
+                      <a class="dropdown-item " href="/page-signup.html">Signup</a>
+                      <a class="dropdown-item " href="/page-reset-password.html">Reset Password</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item " href="./page-login-simple.html">Login Simple</a>
-                      <a class="dropdown-item " href="./page-signup-simple.html">Signup Simple</a>
-                      <a class="dropdown-item " href="./page-reset-password-simple.html">Reset Password Simple</a>
+                      <a class="dropdown-item " href="/page-login-simple.html">Login Simple</a>
+                      <a class="dropdown-item " href="/page-signup-simple.html">Signup Simple</a>
+                      <a class="dropdown-item " href="/page-reset-password-simple.html">Reset Password Simple</a>
                     </div>
                   </div>
                   <!-- End Authentication -->
 
-                  <a class="dropdown-item " href="./account-overview.html">Personal Info</a>
-                  <a class="dropdown-item " href="./account-security.html">Security</a>
-                  <a class="dropdown-item " href="./account-notifications.html">Notifications</a>
-                  <a class="dropdown-item " href="./account-preferences.html">Preferences</a>
-                  <a class="dropdown-item " href="./account-orders.html">Orders</a>
-                  <a class="dropdown-item " href="./account-wishlist.html">Wishlist</a>
-                  <a class="dropdown-item " href="./account-payments.html">Payments</a>
-                  <a class="dropdown-item " href="./account-address.html">Address</a>
-                  <a class="dropdown-item " href="./account-teams.html">Teams</a>
+                  <a class="dropdown-item " href="/account-overview.html">Personal Info</a>
+                  <a class="dropdown-item " href="/account-security.html">Security</a>
+                  <a class="dropdown-item " href="/account-notifications.html">Notifications</a>
+                  <a class="dropdown-item " href="/account-preferences.html">Preferences</a>
+                  <a class="dropdown-item " href="/account-orders.html">Orders</a>
+                  <a class="dropdown-item " href="/account-wishlist.html">Wishlist</a>
+                  <a class="dropdown-item " href="/account-payments.html">Payments</a>
+                  <a class="dropdown-item " href="/account-address.html">Address</a>
+                  <a class="dropdown-item " href="/account-teams.html">Teams</a>
                 </div>
                 <!-- End Mega Menu -->
               </li>
@@ -523,15 +523,15 @@
 
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
-                  <a class="dropdown-item " href="./page-faq.html">FAQ</a>
-                  <a class="dropdown-item " href="./page-terms.html">Terms &amp; Conditions</a>
-                  <a class="dropdown-item " href="./page-privacy.html">Privacy &amp; Policy</a>
-                  <a class="dropdown-item " href="./page-coming-soon.html">Coming Soon</a>
-                  <a class="dropdown-item " href="./page-coming-soon-simple.html">Coming Soon: Simple</a>
-                  <a class="dropdown-item " href="./page-maintenance-mode.html">Maintenance Mode</a>
-                  <a class="dropdown-item " href="./page-status.html">Status</a>
-                  <a class="dropdown-item " href="./page-invoice.html">Invoice</a>
-                  <a class="dropdown-item " href="./page-error-404.html">Error 404</a>
+                  <a class="dropdown-item " href="/page-faq.html">FAQ</a>
+                  <a class="dropdown-item " href="/page-terms.html">Terms &amp; Conditions</a>
+                  <a class="dropdown-item " href="/page-privacy.html">Privacy &amp; Policy</a>
+                  <a class="dropdown-item " href="/page-coming-soon.html">Coming Soon</a>
+                  <a class="dropdown-item " href="/page-coming-soon-simple.html">Coming Soon: Simple</a>
+                  <a class="dropdown-item " href="/page-maintenance-mode.html">Maintenance Mode</a>
+                  <a class="dropdown-item " href="/page-status.html">Status</a>
+                  <a class="dropdown-item " href="/page-invoice.html">Invoice</a>
+                  <a class="dropdown-item " href="/page-error-404.html">Error 404</a>
                 </div>
                 <!-- End Mega Menu -->
               </li>
@@ -543,12 +543,12 @@
 
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 14rem;">
-                  <a class="dropdown-item " href="./blog-journal.html">Journal</a>
-                  <a class="dropdown-item " href="./blog-metro.html">Metro</a>
-                  <a class="dropdown-item " href="./blog-newsroom.html">Newsroom</a>
+                  <a class="dropdown-item " href="/blog-journal.html">Journal</a>
+                  <a class="dropdown-item " href="/blog-metro.html">Metro</a>
+                  <a class="dropdown-item " href="/blog-newsroom.html">Newsroom</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item " href="./blog-article.html">Article</a>
-                  <a class="dropdown-item " href="./blog-author-profile.html">Author Profile</a>
+                  <a class="dropdown-item " href="/blog-article.html">Article</a>
+                  <a class="dropdown-item " href="/blog-author-profile.html">Author Profile</a>
                 </div>
                 <!-- End Mega Menu -->
               </li>
@@ -560,10 +560,10 @@
 
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu dropdown-menu" aria-labelledby="portfolioMegaMenu" style="min-width: 14rem;">
-                  <a class="dropdown-item " href="./portfolio-grid.html">Grid</a>
-                  <a class="dropdown-item " href="./portfolio-product-article.html">Product Article</a>
-                  <a class="dropdown-item " href="./portfolio-case-studies-branding.html">Case Studies: Branding</a>
-                  <a class="dropdown-item " href="./portfolio-case-studies-product.html">Case Studies: Product</a>
+                  <a class="dropdown-item " href="/portfolio-grid.html">Grid</a>
+                  <a class="dropdown-item " href="/portfolio-product-article.html">Product Article</a>
+                  <a class="dropdown-item " href="/portfolio-case-studies-branding.html">Case Studies: Branding</a>
+                  <a class="dropdown-item " href="/portfolio-case-studies-product.html">Case Studies: Product</a>
                 </div>
                 <!-- End Mega Menu -->
               </li>
@@ -737,7 +737,7 @@
               <h2 class="mb-3">Main Demo</h2>
               <p class="fs-4">Front's main demo comes with 16 landing pages, including over 40 commonly used pages that can be combined with another 6 pre-built demos.</p>
             </div>
-            <a class="btn btn-primary" target="_blank" href="./landing-classic-corporate.html">Preview Main Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
+            <a class="btn btn-primary" target="_blank" href="/landing-classic-corporate.html">Preview Main Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
           </div>
         </div>
         <!-- End Col -->
@@ -778,7 +778,7 @@
               <h2 class="mb-3">E-Commerce Demo</h2>
               <p class="fs-4">Customize the appearance of products, lists, components, and snippets, but also cart, checkout, and other E-commerce pages.</p>
             </div>
-            <a class="btn btn-primary" target="_blank" href="./demo-shop/index.html">Preview Shop Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
+            <a class="btn btn-primary" target="_blank" href="/demo-shop/index.html">Preview Shop Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
           </div>
         </div>
         <!-- End Col -->
@@ -819,7 +819,7 @@
               <h2 class="mb-3">Jobs Demo</h2>
               <p class="fs-4">Demonstrate your job positions with more dynamic and interactive elements of Front to quickly put together a more professional looking page.</p>
             </div>
-            <a class="btn btn-primary" target="_blank" href="./demo-jobs/index.html">Preview Jobs Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
+            <a class="btn btn-primary" target="_blank" href="/demo-jobs/index.html">Preview Jobs Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
           </div>
         </div>
         <!-- End Col -->
@@ -860,7 +860,7 @@
               <h2 class="mb-3">Real Estate Demo</h2>
               <p class="fs-4">Please your visitors with eye-catching and exciting real estate listings. Different options and settings to manage your site.</p>
             </div>
-            <a class="btn btn-primary" target="_blank" href="./demo-real-estate/index.html">Preview Real Estate Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
+            <a class="btn btn-primary" target="_blank" href="/demo-real-estate/index.html">Preview Real Estate Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
           </div>
         </div>
         <!-- End Col -->
@@ -901,7 +901,7 @@
               <h2 class="mb-3">Courses Demo</h2>
               <p class="fs-4">Build a deep, solid understanding in education platform with Front Course demo. An online learning and teaching demo.</p>
             </div>
-            <a class="btn btn-primary" target="_blank" href="./demo-course/index.html">Preview Courses Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
+            <a class="btn btn-primary" target="_blank" href="/demo-course/index.html">Preview Courses Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
           </div>
         </div>
         <!-- End Col -->
@@ -942,7 +942,7 @@
               <h2 class="mb-3">App Marketplace Demo</h2>
               <p class="fs-4">Create and run your online business with Front's App Marketplace demo. Easy to expand and designed to work together.</p>
             </div>
-            <a class="btn btn-primary" target="_blank" href="./demo-app-marketplace/index.html">Preview App Marketplace Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
+            <a class="btn btn-primary" target="_blank" href="/demo-app-marketplace/index.html">Preview App Marketplace Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
           </div>
         </div>
         <!-- End Col -->
@@ -983,7 +983,7 @@
               <h2 class="mb-3">Help Desk</h2>
               <p class="fs-4">Find all the answers you are looking for in our extensive knowledge base demo option.</p>
             </div>
-            <a class="btn btn-primary" target="_blank" href="./demo-help-desk/index.html">Preview Help Desk Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
+            <a class="btn btn-primary" target="_blank" href="/demo-help-desk/index.html">Preview Help Desk Demo <i class="bi-box-arrow-up-right ms-2"></i></a>
           </div>
         </div>
         <!-- End Col -->
@@ -1000,7 +1000,7 @@
           <div class="w-md-75 text-center mx-md-auto mb-5 mb-md-9">
             <h2>Documentation</h2>
             <p class="fs-4">Get started with Front - Multipurpose Responsive Template for building responsive, mobile-first sites, with Bootstrap and a template starter page.</p>
-            <a href="./documentation/index.html" class="btn btn-primary">Browse Documentation</a>
+            <a href="/documentation/index.html" class="btn btn-primary">Browse Documentation</a>
           </div>
           <!-- End Heading -->
 
@@ -1017,7 +1017,7 @@
         <div class="w-md-75 text-center mx-md-auto mb-5 mb-md-9">
           <h2>Snippets</h2>
           <p class="fs-4">Mix and match content and features from different demos. Copy-paste components that suit you the best. Combine features from different demos!</p>
-          <a class="btn btn-primary" href="./snippets/index.html">Browse Snippets</a>
+          <a class="btn btn-primary" href="/snippets/index.html">Browse Snippets</a>
         </div>
         <!-- End Heading -->
 
@@ -1061,7 +1061,7 @@
           <!-- End Code Sample -->
 
           <div class="text-center mb-7">
-            <p>Not comfortable diving that deep? No worries, you just use the compiled CSS and examples pages! <a class="link" href="./documentation/gulp.html">Learn more <i class="bi-chevron-right small"></i></a></p>
+            <p>Not comfortable diving that deep? No worries, you just use the compiled CSS and examples pages! <a class="link" href="/documentation/gulp.html">Learn more <i class="bi-chevron-right small"></i></a></p>
           </div>
 
           <div class="row justify-content-center">
@@ -1211,7 +1211,7 @@
         <div class="col-lg-3 mb-7 mb-lg-0">
           <!-- Logo -->
           <div class="mb-5">
-            <a class="navbar-brand" href="./index.html" aria-label="Space">
+            <a class="navbar-brand" href="/index.html" aria-label="Space">
               <img class="navbar-brand-logo" src="./assets/svg/logos/logo-white.svg" alt="Image Description">
             </a>
           </div>

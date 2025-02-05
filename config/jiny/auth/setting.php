@@ -1,20 +1,21 @@
 <?php
 return [
-	'updated_at'=>"2024-04-01 16:26:52",
+	'updated_at'=>"2025-01-07 10:20:44",
 	'description'=>"\\u3147\\u313b\\u3134\\u3147\\u313b\\u3134\\u3139",
 	'auth'=>[
-		'enable'=>"1",
+		'enable'=>"",
 		'auto'=>"1"
 	],
 	'register'=>"1",
 	'agreement'=>"1",
 	'view'=>[
-		//'register'=>"jinyauth::register",
-		'agreement'=>"jinyauth::agreement",
-		'forget'=>"jinyauth::password.forget"
+		'agreement'=>"jiny-auth::agreement"
 	],
 	'login'=>[
-		'enable'=>"1"
+		'view'=>"",
+		'enable'=>"1",
+		'log'=>"1",
+		'remember'=>"1"
 	],
 	'view_login'=>"",
 	'view_regist'=>"",
@@ -22,7 +23,6 @@ return [
 	'dashboard'=>"/",
 	'remember'=>"1",
 	'password_period'=>"3",
-	'password'=>"1",
 	'home'=>"/",
 	'agree'=>[
 		'enable'=>""
@@ -33,9 +33,20 @@ return [
 	'regist'=>[
 		'enable'=>"1",
 		'mail'=>"1",
-		'verified'=>"1"
-    ],
-    'verified' => [
-        'view' => "jinyauth::verified.verified"
-    ]
+		'verified'=>"1",
+		'success'=>"1"
+	],
+	'verified'=>[
+
+	],
+	'sleeper'=>[
+		'enable'=>"1",
+		'auto'=>""
+	],
+	'password'=>[
+		'min'=>"8",
+		'special'=>"",
+		'number'=>"",
+		'period'=>"2"
+	]
 ];

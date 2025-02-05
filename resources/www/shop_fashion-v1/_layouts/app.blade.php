@@ -9,18 +9,21 @@
                 content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
 
         <!-- SEO Meta Tags -->
-        <title>Cartzilla | Fashion Store v.1</title>
-        {{-- <meta name="description" content="Cartzilla - Multipurpose Bootstrap E-Commerce HTML Template">
-        <meta name="keywords"
-        content="bootstrap, online shop, e-commerce, market, multipurpose, product landing, ui kit, light and dark mode, html5, css3, javascript, gallery, slider, touch, creative">
-        <meta name="author" content="Createx Studio"> --}}
+        @if(isset($actions['title']))
+        <title>
+            {{$actions['title']}}
+        </title>
+        @endif
 
-        <!-- Webmanifest + Favicon / App icons -->
-        {{-- <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="manifest" href="/manifest.json">
-        <link rel="icon" type="image/png" href="/assets/app-icons/icon-32x32.png" sizes="32x32">
-        <link rel="apple-touch-icon" href="/assets/app-icons/icon-180x180.png"> --}}
+        @if(isset($actions['description']))
+        <meta name="description" content="{{$actions['description']}}">
+        @endif
+
+        @if(isset($actions['keyword']))
+        <meta name="keyword" content="{{$actions['keyword']}}">
+        @endif
+
+
 
         <!-- Theme switcher (color modes) -->
         <script src="/assets/js/theme-switcher.js"></script>
@@ -48,6 +51,7 @@
 
 		{{-- blade내의 css 처리--}}
 		@stack('css')
+
     </head>
 
     <!-- Body -->
@@ -77,6 +81,7 @@
 
         <!-- Bootstrap + Theme scripts -->
         <script src="/assets/js/theme.min.js"></script>
+
 
         {{-- HotKey 단축키 이벤트 --}}
 		@livewire('HotKeyEvent')
