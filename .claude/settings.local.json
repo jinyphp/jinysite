@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(composer show:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
